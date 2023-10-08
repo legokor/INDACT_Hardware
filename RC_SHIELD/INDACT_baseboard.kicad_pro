@@ -330,12 +330,16 @@
       ""
     ],
     [
-      "6a47a236-0956-4030-8eee-bd2473602ccc",
-      "Periferia"
+      "401288ec-587c-4360-83ad-5d7aeac3d87f",
+      "NUCLEO"
     ],
     [
       "5a8a22d1-01c4-445f-8585-ea064155dbe9",
-      "Power_motor_drv"
+      "Secondary microcontroller"
+    ],
+    [
+      "6a47a236-0956-4030-8eee-bd2473602ccc",
+      "Power & peripherals"
     ],
     [
       "f3f2c7e7-cde6-44b4-bab8-36d4081ef015",
