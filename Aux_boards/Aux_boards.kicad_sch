@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8cbd9868-8dda-4ab2-bfc7-d6cef0b3b037)
+
+  (paper "A4")
+
+  (title_block
+    (title "Karcsi (INDACT Robot Arm) - Auxiliary boards")
+    (date "2023-10-15")
+    (rev "0.1")
+    (company "LEGO Kör (legokor.hu)")
+    (comment 1 "Design by Gergely Halász")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
