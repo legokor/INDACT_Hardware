@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "power_modules")(type "KiCad")(uri "${KIPRJMOD}/power_modules.kicad_sym")(options "")(descr ""))
   (lib (name "DB37")(type "KiCad")(uri "${KIPRJMOD}/DB37.kicad_sym")(options "")(descr ""))
+  (lib (name "SFH6345")(type "KiCad")(uri "${KIPRJMOD}/SFH6345.kicad_sym")(options "")(descr ""))
 )
