@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "power_modules")(type "KiCad")(uri "${KIPRJMOD}/power_modules.pretty")(options "")(descr ""))
   (lib (name "DB37")(type "KiCad")(uri "${KIPRJMOD}/DB37.pretty")(options "")(descr ""))
+  (lib (name "SFH6345")(type "KiCad")(uri "C:/kicad gyakorlás/INDACT/INDACT_Hardware/SFH6345/SFH6345.pretty")(options "")(descr ""))
 )
