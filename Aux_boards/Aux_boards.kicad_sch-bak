@@ -1,0 +1,73 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8cbd9868-8dda-4ab2-bfc7-d6cef0b3b037)
+
+  (paper "A4")
+
+  (title_block
+    (title "Karcsi (INDACT Robot Arm) - Auxiliary boards")
+    (date "2023-10-15")
+    (rev "0.1")
+    (company "LEGO Kör (legokor.hu)")
+    (comment 1 "Design by Gergely Halász")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 158.75 49.53) (size 66.04 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5769e753-738a-4921-8e51-d402b27aed59)
+    (property "Sheetname" "board2" (at 158.75 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "board2.kicad_sch" (at 158.75 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Aux_boards"
+        (path "/8cbd9868-8dda-4ab2-bfc7-d6cef0b3b037" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 60.96 49.53) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c3615d2e-c09e-4260-a0b9-448284af7c52)
+    (property "Sheetname" "board1" (at 60.96 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "board1.kicad_sch" (at 60.96 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Aux_boards"
+        (path "/8cbd9868-8dda-4ab2-bfc7-d6cef0b3b037" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 113.03 106.68) (size 60.96 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eac8d516-c00f-4d81-8349-958c5157bc7b)
+    (property "Sheetname" "board3" (at 113.03 105.9684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "board3.kicad_sch" (at 113.03 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Aux_boards"
+        (path "/8cbd9868-8dda-4ab2-bfc7-d6cef0b3b037" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
