@@ -524,11 +524,11 @@
     ],
     [
       "f3f2c7e7-cde6-44b4-bab8-36d4081ef015",
-      "PHI & Z axes optocouplers"
+      "Servos_pos_gates"
     ],
     [
       "a9002198-8e1f-49fa-bbeb-5638f73a34ae",
-      "R & THETA axes optocouplers"
+      "Encoders"
     ],
     [
       "cfb655df-f71d-4df8-a2fb-679f567a0f50",
