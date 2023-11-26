@@ -1207,7 +1207,7 @@
   (symbol (lib_id "Device:R") (at 33.274 141.986 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0484aacf-82bd-4e3a-a88f-69a3e5729d1d)
-    (property "Reference" "R53" (at 32.004 139.446 0)
+    (property "Reference" "R39" (at 32.004 139.446 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 34.544 139.446 0)
@@ -1223,11 +1223,11 @@
     (pin "2" (uuid fde298b5-f9c7-4aa6-a0b5-103a0ee5a86e))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R39") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -1236,7 +1236,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 137.922 129.286 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 065cf614-f686-4af9-93f5-c3753910dfae)
-    (property "Reference" "U1" (at 137.922 108.966 0)
+    (property "Reference" "U26" (at 137.922 108.966 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 137.922 111.506 0)
@@ -1285,11 +1285,11 @@
     (pin "8" (uuid e7cc3035-7f65-4517-abfa-1c2b9950f272))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "U26") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1298,7 +1298,7 @@
   (symbol (lib_id "power:GNDPWR") (at 21.844 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07933933-be54-4ca6-a30e-a8f7a29ab50c)
-    (property "Reference" "#PWR0513" (at 21.844 59.69 0)
+    (property "Reference" "#PWR0107" (at 21.844 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 21.717 58.42 0)
@@ -1313,11 +1313,11 @@
     (pin "1" (uuid 732acffe-cfcf-4c78-bdaa-86fe7b8dc708))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0513") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0107") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0513") (unit 1)
         )
       )
     )
@@ -1326,7 +1326,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 58.674 129.286 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a34cbda-3350-4ffa-9281-3e27f3252dde)
-    (property "Reference" "U1" (at 58.674 108.966 0)
+    (property "Reference" "U14" (at 58.674 108.966 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 58.674 111.506 0)
@@ -1375,11 +1375,11 @@
     (pin "8" (uuid 2b71f607-1510-4729-b088-ae69f91ae9fd))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "U14") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1413,7 +1413,7 @@
   (symbol (lib_id "power:+3V3") (at 76.454 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f51c54e-efa4-45f4-a2a1-928382356c1b)
-    (property "Reference" "#PWR0515" (at 76.454 29.21 0)
+    (property "Reference" "#PWR0111" (at 76.454 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.454 20.32 0)
@@ -1428,11 +1428,11 @@
     (pin "1" (uuid 2faf6735-c0ab-449b-926b-d848714bc7f8))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0515") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0111") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0515") (unit 1)
         )
       )
     )
@@ -1441,7 +1441,7 @@
   (symbol (lib_id "Device:R") (at 112.522 141.986 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c9318f3-2a99-4aa7-a570-f25fea8c36cc)
-    (property "Reference" "R53" (at 111.252 139.446 0)
+    (property "Reference" "R75" (at 111.252 139.446 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 113.792 139.446 0)
@@ -1457,11 +1457,11 @@
     (pin "2" (uuid 71394f0e-384b-447a-bbcb-929a5678d6b3))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R75") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -1470,7 +1470,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 58.674 171.196 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e224781-d04e-46e2-8e64-f584091bd173)
-    (property "Reference" "U2" (at 58.674 150.876 0)
+    (property "Reference" "U15" (at 58.674 150.876 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 58.674 153.416 0)
@@ -1519,11 +1519,11 @@
     (pin "8" (uuid 4ec219d1-4f2a-41c1-bf29-403bb9c3934b))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "U15") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1532,7 +1532,7 @@
   (symbol (lib_id "Device:R") (at 25.654 141.986 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2025ac75-47d3-46a0-ad23-bad958733a57)
-    (property "Reference" "R52" (at 24.384 139.446 0)
+    (property "Reference" "R35" (at 24.384 139.446 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 26.924 139.446 0)
@@ -1548,11 +1548,11 @@
     (pin "2" (uuid 687643f0-a99d-48b0-a5c3-9b3a4ea74e45))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R35") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1561,7 +1561,7 @@
   (symbol (lib_id "Device:R") (at 112.522 183.896 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22d709f6-59d6-428a-b3c3-a2d69de8394c)
-    (property "Reference" "R53" (at 111.252 181.356 0)
+    (property "Reference" "R76" (at 111.252 181.356 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 113.792 181.356 0)
@@ -1577,11 +1577,11 @@
     (pin "2" (uuid 3ac959b3-39f1-4cb2-b339-3158d582add3))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R76") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -1590,7 +1590,7 @@
   (symbol (lib_id "Device:R") (at 25.654 183.896 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26367cbb-05eb-4b1c-b780-f57134ca57fb)
-    (property "Reference" "R52" (at 24.384 181.356 0)
+    (property "Reference" "R36" (at 24.384 181.356 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 26.924 181.356 0)
@@ -1606,11 +1606,11 @@
     (pin "2" (uuid b06c0adf-e6d4-4f94-b39c-af4983c53b23))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R36") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1644,7 +1644,7 @@
   (symbol (lib_id "Device:R") (at 25.654 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b08d0af-bf24-4271-a5e7-655b8bda60d4)
-    (property "Reference" "R52" (at 24.384 48.26 0)
+    (property "Reference" "R45" (at 24.384 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 26.924 48.26 0)
@@ -1660,11 +1660,11 @@
     (pin "2" (uuid 904e4567-27b1-490e-9e3f-59aebd3e8ead))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R45") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1673,7 +1673,7 @@
   (symbol (lib_id "power:GNDPWR") (at 101.092 187.706 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c844073-12b2-4f7d-95f0-e9237e543683)
-    (property "Reference" "#PWR0502" (at 101.092 192.786 0)
+    (property "Reference" "#PWR0134" (at 101.092 192.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 100.965 191.516 0)
@@ -1688,11 +1688,11 @@
     (pin "1" (uuid f59865cf-3534-44c3-9dd7-21ff17227eb4))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0502") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0134") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "Device:R") (at 116.332 180.086 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e81c9b3-a49e-404b-b728-0e67c5731e72)
-    (property "Reference" "R2" (at 118.872 178.816 0)
+    (property "Reference" "R80" (at 118.872 178.816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 118.872 181.356 0)
@@ -1717,11 +1717,11 @@
     (pin "2" (uuid b7917866-d067-4d80-b817-46932fc6d944))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R80") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1730,7 +1730,7 @@
   (symbol (lib_id "power:+3V3") (at 155.702 25.146 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f136b8b-72d2-453f-933c-44cdcb91ad79)
-    (property "Reference" "#PWR0521" (at 155.702 28.956 0)
+    (property "Reference" "#PWR0147" (at 155.702 28.956 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 155.702 20.066 0)
@@ -1745,11 +1745,11 @@
     (pin "1" (uuid 29633e5a-37e7-4b35-b139-2416a34e1ea2))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0521") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0147") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0521") (unit 1)
         )
       )
     )
@@ -1758,7 +1758,7 @@
   (symbol (lib_id "power:GND") (at 76.454 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42dcffaa-768f-4365-aaab-d3df74379dd1)
-    (property "Reference" "#PWR0516" (at 76.454 59.69 0)
+    (property "Reference" "#PWR0112" (at 76.454 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.454 58.42 0)
@@ -1773,11 +1773,11 @@
     (pin "1" (uuid d4f780ef-f94b-4b2c-8377-0d6f73030b43))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0516") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0112") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0516") (unit 1)
         )
       )
     )
@@ -1786,7 +1786,7 @@
   (symbol (lib_id "power:GND") (at 155.702 186.436 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4390b416-c321-4ad6-a804-6c255bb40f84)
-    (property "Reference" "#PWR0506" (at 155.702 192.786 0)
+    (property "Reference" "#PWR0142" (at 155.702 192.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.702 191.516 0)
@@ -1801,11 +1801,11 @@
     (pin "1" (uuid fd025359-66a5-4b03-a7f8-47b209ee86e5))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0506") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0142") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0506") (unit 1)
         )
       )
     )
@@ -1814,7 +1814,7 @@
   (symbol (lib_id "Device:R") (at 37.084 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43bce406-2ba2-4fe0-8e0e-7908b5bfcc61)
-    (property "Reference" "R1" (at 39.624 45.72 0)
+    (property "Reference" "R53" (at 39.624 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 39.624 48.26 0)
@@ -1830,11 +1830,11 @@
     (pin "2" (uuid 0144a7f4-cb2a-4e40-9c63-b491d760d448))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R53") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1843,7 +1843,7 @@
   (symbol (lib_id "Device:R") (at 116.332 88.646 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45d9ae59-4f14-4a90-9d7f-68e72ea6f24c)
-    (property "Reference" "R2" (at 118.872 87.376 0)
+    (property "Reference" "R90" (at 118.872 87.376 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 118.872 89.916 0)
@@ -1859,11 +1859,11 @@
     (pin "2" (uuid bfd94e98-6477-4f9e-b3f3-02a9a02ec9d6))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R90") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1872,7 +1872,7 @@
   (symbol (lib_id "power:+3V3") (at 155.702 158.496 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47107452-5ba3-4570-93f7-3807313469bc)
-    (property "Reference" "#PWR0505" (at 155.702 162.306 0)
+    (property "Reference" "#PWR0141" (at 155.702 162.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 155.702 153.416 0)
@@ -1887,11 +1887,11 @@
     (pin "1" (uuid f167ace1-f9c7-49e1-881b-dfec884ad145))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0505") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0141") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0505") (unit 1)
         )
       )
     )
@@ -1900,7 +1900,7 @@
   (symbol (lib_id "power:+3V3") (at 155.702 67.056 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47fdb229-ef67-4271-93e0-aaa4db3f5dac)
-    (property "Reference" "#PWR0523" (at 155.702 70.866 0)
+    (property "Reference" "#PWR0149" (at 155.702 70.866 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 155.702 61.976 0)
@@ -1915,11 +1915,11 @@
     (pin "1" (uuid aa0e53dc-291d-4f21-ad3e-acf65478b789))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0523") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0149") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0523") (unit 1)
         )
       )
     )
@@ -1928,7 +1928,7 @@
   (symbol (lib_id "power:GND") (at 76.454 186.436 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a3afa2b-fc98-43f1-939d-403ff4afd63b)
-    (property "Reference" "#PWR0512" (at 76.454 192.786 0)
+    (property "Reference" "#PWR0106" (at 76.454 192.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.454 191.516 0)
@@ -1943,11 +1943,11 @@
     (pin "1" (uuid 8c1972d5-b74b-4993-82c3-15686390a2d3))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0512") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0106") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0512") (unit 1)
         )
       )
     )
@@ -1956,7 +1956,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 137.922 171.196 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51358960-e52c-43a0-b6d4-eaa388ce14c4)
-    (property "Reference" "U2" (at 137.922 150.876 0)
+    (property "Reference" "U27" (at 137.922 150.876 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 137.922 153.416 0)
@@ -2005,11 +2005,11 @@
     (pin "8" (uuid 4ee61a30-b88f-460b-bb85-906c6a63adbf))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "U27") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
   (symbol (lib_id "Device:R") (at 116.332 138.176 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5230eba9-a336-453a-b007-4962e4ae5df3)
-    (property "Reference" "R1" (at 118.872 136.906 0)
+    (property "Reference" "R79" (at 118.872 136.906 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 118.872 139.446 0)
@@ -2034,11 +2034,11 @@
     (pin "2" (uuid 4dfe88c6-8175-4ad4-8c8c-c0a3fe46eec9))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R79") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2073,7 +2073,7 @@
   (symbol (lib_id "Device:R") (at 104.902 50.546 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e8bada1-2437-4016-b60b-4f29cf486bc2)
-    (property "Reference" "R52" (at 103.632 48.006 0)
+    (property "Reference" "R81" (at 103.632 48.006 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 106.172 48.006 0)
@@ -2089,11 +2089,11 @@
     (pin "2" (uuid 004aafde-1795-490a-b539-56f358cc132d))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R81") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -2127,7 +2127,7 @@
   (symbol (lib_id "Device:R") (at 104.902 92.456 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 650bceb9-ff30-4a4d-a917-db76b413505e)
-    (property "Reference" "R52" (at 103.632 89.916 0)
+    (property "Reference" "R82" (at 103.632 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 106.172 89.916 0)
@@ -2143,11 +2143,11 @@
     (pin "2" (uuid 01312cb8-c2e4-49ac-bb25-cfafe4b1914d))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R82") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -2156,7 +2156,7 @@
   (symbol (lib_id "power:GND") (at 155.702 144.526 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e0ef1bc-e7d7-47a8-b8bc-c34bc51ac113)
-    (property "Reference" "#PWR0504" (at 155.702 150.876 0)
+    (property "Reference" "#PWR0140" (at 155.702 150.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.702 149.606 0)
@@ -2171,11 +2171,11 @@
     (pin "1" (uuid dbea5c6f-d864-4dbe-a7e4-8c3b95897a4b))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0504") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0140") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -2327,7 +2327,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 137.922 79.756 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fdeac90-280f-4dcf-9ff7-654f56903a3b)
-    (property "Reference" "U2" (at 137.922 59.436 0)
+    (property "Reference" "U29" (at 137.922 59.436 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 137.922 61.976 0)
@@ -2376,11 +2376,11 @@
     (pin "8" (uuid ba2a134d-4693-4a0a-95d1-1052fef0a94d))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "U29") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2441,7 +2441,7 @@
   (symbol (lib_id "Device:R") (at 33.274 183.896 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8400073e-6a2a-4e5d-977a-7713068b9add)
-    (property "Reference" "R53" (at 32.004 181.356 0)
+    (property "Reference" "R40" (at 32.004 181.356 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 34.544 181.356 0)
@@ -2457,11 +2457,11 @@
     (pin "2" (uuid c6bbaa38-6c08-424d-9546-f8b1c734663b))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R40") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2470,7 +2470,7 @@
   (symbol (lib_id "Device:R") (at 104.902 183.896 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84df16b2-f0cb-4266-8028-d8561d61f452)
-    (property "Reference" "R52" (at 103.632 181.356 0)
+    (property "Reference" "R72" (at 103.632 181.356 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 106.172 181.356 0)
@@ -2486,11 +2486,11 @@
     (pin "2" (uuid b7f562d5-2e7f-4ee3-abb2-be6809535423))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R72") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -2499,7 +2499,7 @@
   (symbol (lib_id "Device:R") (at 112.522 92.456 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a433298-b2a4-42f5-94e0-a61b7ef5bed3)
-    (property "Reference" "R53" (at 111.252 89.916 0)
+    (property "Reference" "R86" (at 111.252 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 113.792 89.916 0)
@@ -2515,11 +2515,11 @@
     (pin "2" (uuid 70a147f8-aadc-4c24-9047-ba6902f30b33))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R86") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2528,7 +2528,7 @@
   (symbol (lib_id "Device:R") (at 37.084 180.086 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ef682a6-deee-48de-9a1a-49ea0c4d8b7a)
-    (property "Reference" "R2" (at 39.624 178.816 0)
+    (property "Reference" "R44" (at 39.624 178.816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 39.624 181.356 0)
@@ -2544,11 +2544,11 @@
     (pin "2" (uuid 962ea725-af6b-456a-93ad-dcf036131023))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R44") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2557,7 +2557,7 @@
   (symbol (lib_id "power:+3V3") (at 76.454 116.586 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98091347-a634-4ace-aad7-75505746a0dd)
-    (property "Reference" "#PWR0509" (at 76.454 120.396 0)
+    (property "Reference" "#PWR0103" (at 76.454 120.396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.454 111.506 0)
@@ -2572,11 +2572,11 @@
     (pin "1" (uuid e017bded-d2fe-47ec-805a-a3f5a4bc24e9))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0509") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0103") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0509") (unit 1)
         )
       )
     )
@@ -2585,7 +2585,7 @@
   (symbol (lib_id "power:+3V3") (at 76.454 158.496 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ab7257c-6f1d-4639-a33a-546b3a4de73b)
-    (property "Reference" "#PWR0511" (at 76.454 162.306 0)
+    (property "Reference" "#PWR0105" (at 76.454 162.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.454 153.416 0)
@@ -2600,11 +2600,11 @@
     (pin "1" (uuid d69971ae-ca5c-4100-a8bb-687194a60de7))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0511") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0105") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0511") (unit 1)
         )
       )
     )
@@ -2613,7 +2613,7 @@
   (symbol (lib_id "Device:R") (at 33.274 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d734c4a-5443-471f-a363-e77e11ad775f)
-    (property "Reference" "R53" (at 32.004 48.26 0)
+    (property "Reference" "R49" (at 32.004 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 34.544 48.26 0)
@@ -2629,11 +2629,11 @@
     (pin "2" (uuid be641dee-37d3-4204-9a4a-f96af2fae94d))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R49") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2642,7 +2642,7 @@
   (symbol (lib_id "power:+3V3") (at 76.454 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e228fcb-e2f1-440e-983d-25675a30e6a4)
-    (property "Reference" "#PWR0517" (at 76.454 71.12 0)
+    (property "Reference" "#PWR0113" (at 76.454 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.454 62.23 0)
@@ -2657,11 +2657,11 @@
     (pin "1" (uuid 354fd158-7d5e-49ac-bb5e-c1d1b899b58a))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0517") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0113") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0517") (unit 1)
         )
       )
     )
@@ -2670,7 +2670,7 @@
   (symbol (lib_id "power:GNDPWR") (at 101.092 145.796 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0047524-91ea-4115-b38a-ce9375373225)
-    (property "Reference" "#PWR0501" (at 101.092 150.876 0)
+    (property "Reference" "#PWR0133" (at 101.092 150.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 100.965 149.606 0)
@@ -2685,11 +2685,11 @@
     (pin "1" (uuid b61d9cc8-83ab-4cac-ab26-4fdcacc6ecb8))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0501") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0133") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -2724,7 +2724,7 @@
   (symbol (lib_id "power:GND") (at 155.702 53.086 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abdd2461-5b5a-44ed-9f1c-7108c78e4118)
-    (property "Reference" "#PWR0522" (at 155.702 59.436 0)
+    (property "Reference" "#PWR0148" (at 155.702 59.436 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.702 58.166 0)
@@ -2739,11 +2739,11 @@
     (pin "1" (uuid faa0d4ff-db77-4ab7-9567-8423b43c40aa))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0522") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0148") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0522") (unit 1)
         )
       )
     )
@@ -2778,7 +2778,7 @@
   (symbol (lib_id "Device:R") (at 104.902 141.986 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af09feaa-346a-43ad-ad63-981e28ea9141)
-    (property "Reference" "R52" (at 103.632 139.446 0)
+    (property "Reference" "R71" (at 103.632 139.446 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 106.172 139.446 0)
@@ -2794,11 +2794,11 @@
     (pin "2" (uuid e25e7222-c91e-4461-9e4d-438935ad64da))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R71") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -2807,7 +2807,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 58.674 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1272666-f6a4-4fd5-a130-e83eaaf1015d)
-    (property "Reference" "U2" (at 58.674 59.69 0)
+    (property "Reference" "U17" (at 58.674 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 58.674 62.23 0)
@@ -2856,11 +2856,11 @@
     (pin "8" (uuid bcb5ecc0-08f7-43b8-a94d-33c836f071d7))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "U17") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2869,7 +2869,7 @@
   (symbol (lib_id "power:GND") (at 155.702 94.996 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2b6c072-214f-4e1f-883f-4ed72e55b59b)
-    (property "Reference" "#PWR0524" (at 155.702 101.346 0)
+    (property "Reference" "#PWR0150" (at 155.702 101.346 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.702 100.076 0)
@@ -2884,11 +2884,11 @@
     (pin "1" (uuid 53210079-77c9-475f-9857-12732ad0753a))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0524") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0150") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0524") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "Device:R") (at 112.522 50.546 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6d01b88-2011-41c8-837b-ae7779528e0b)
-    (property "Reference" "R53" (at 111.252 48.006 0)
+    (property "Reference" "R85" (at 111.252 48.006 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 113.792 48.006 0)
@@ -2938,11 +2938,11 @@
     (pin "2" (uuid b4d0d5d7-4acd-45c0-8179-2a481be46a81))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R85") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2951,7 +2951,7 @@
   (symbol (lib_id "power:GND") (at 76.454 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6ef1c01-60a8-4e48-8ad7-7a4a98b753fe)
-    (property "Reference" "#PWR0518" (at 76.454 101.6 0)
+    (property "Reference" "#PWR0114" (at 76.454 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.454 100.33 0)
@@ -2966,11 +2966,11 @@
     (pin "1" (uuid 80f83c58-05b5-41cd-85da-bf86bd761ace))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0518") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0114") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0518") (unit 1)
         )
       )
     )
@@ -3005,7 +3005,7 @@
   (symbol (lib_id "power:GND") (at 76.454 144.526 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba2c6ee8-0583-492f-8f74-701a9589a927)
-    (property "Reference" "#PWR0510" (at 76.454 150.876 0)
+    (property "Reference" "#PWR0104" (at 76.454 150.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.454 149.606 0)
@@ -3020,11 +3020,11 @@
     (pin "1" (uuid 3c2d40a9-f9a1-4fa3-bfc4-75314c9dac0a))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0510") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0104") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0510") (unit 1)
         )
       )
     )
@@ -3033,7 +3033,7 @@
   (symbol (lib_id "power:+3V3") (at 155.702 116.586 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdbc1e9d-89fa-4d82-b804-e7571a6cf8ee)
-    (property "Reference" "#PWR0503" (at 155.702 120.396 0)
+    (property "Reference" "#PWR0139" (at 155.702 120.396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 155.702 111.506 0)
@@ -3048,11 +3048,11 @@
     (pin "1" (uuid 989ca422-d214-4034-85b1-d5fbaee09db2))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0503") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0139") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -3061,7 +3061,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 58.674 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdedac27-441b-4ddb-869b-b25b49f167c7)
-    (property "Reference" "U1" (at 58.674 17.78 0)
+    (property "Reference" "U16" (at 58.674 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 58.674 20.32 0)
@@ -3110,11 +3110,11 @@
     (pin "8" (uuid e55f29f3-667e-463d-9e4b-1ac282409151))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "U16") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3123,7 +3123,7 @@
   (symbol (lib_id "Device:R") (at 33.274 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c18beb5f-0559-4bb8-a3f8-32d9b5faea47)
-    (property "Reference" "R53" (at 32.004 90.17 0)
+    (property "Reference" "R50" (at 32.004 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33R" (at 34.544 90.17 0)
@@ -3139,11 +3139,11 @@
     (pin "2" (uuid 42b8e849-2653-4cb0-876c-ea4961f3aad8))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R53") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R50") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -3152,7 +3152,7 @@
   (symbol (lib_id "power:GNDPWR") (at 101.092 54.356 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c400305d-52d1-4a2c-bbcc-d876a472d335)
-    (property "Reference" "#PWR0519" (at 101.092 59.436 0)
+    (property "Reference" "#PWR0143" (at 101.092 59.436 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 100.965 58.166 0)
@@ -3167,11 +3167,11 @@
     (pin "1" (uuid 63beffde-6dab-4cdd-828a-11858ce72c2c))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0519") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0143") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0519") (unit 1)
         )
       )
     )
@@ -3180,7 +3180,7 @@
   (symbol (lib_id "power:GNDPWR") (at 101.092 96.266 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbabf368-3800-4e40-bad3-86773c5c5a5a)
-    (property "Reference" "#PWR0520" (at 101.092 101.346 0)
+    (property "Reference" "#PWR0144" (at 101.092 101.346 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 100.965 100.076 0)
@@ -3195,11 +3195,11 @@
     (pin "1" (uuid 485ea0ce-162a-42f9-8f16-85caea2c0d65))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0520") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "#PWR0144") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0520") (unit 1)
         )
       )
     )
@@ -3233,7 +3233,7 @@
   (symbol (lib_id "power:GNDPWR") (at 21.59 185.166 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ced1d125-132f-4971-a4b1-289ac9a84c2b)
-    (property "Reference" "#PWR0508" (at 21.59 190.246 0)
+    (property "Reference" "#PWR098" (at 21.59 190.246 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 27.432 186.944 0)
@@ -3248,11 +3248,11 @@
     (pin "1" (uuid 2337506b-eeef-49a4-a408-eb90566c1129))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0508") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR098") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0508") (unit 1)
         )
       )
     )
@@ -3261,7 +3261,7 @@
   (symbol (lib_id "Device:R") (at 37.084 138.176 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6ff0be7-530a-4c94-b053-d16967102ac1)
-    (property "Reference" "R1" (at 39.624 136.906 0)
+    (property "Reference" "R43" (at 39.624 136.906 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 39.624 139.446 0)
@@ -3277,11 +3277,11 @@
     (pin "2" (uuid 6ee16b91-51bd-46e1-a93d-7902d2a3ba57))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R43") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3290,7 +3290,7 @@
   (symbol (lib_id "SFH6345:SFH6345") (at 137.922 37.846 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d757bcdc-5d24-4fb9-b25a-d32994979c1d)
-    (property "Reference" "U1" (at 137.922 17.526 0)
+    (property "Reference" "U28" (at 137.922 17.526 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SFH6345" (at 137.922 20.066 0)
@@ -3339,11 +3339,11 @@
     (pin "8" (uuid fbbcbd82-6173-4045-8235-167f906381ea))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "U1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "U28") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3352,7 +3352,7 @@
   (symbol (lib_id "Device:R") (at 116.332 46.736 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2452f79-e1b4-4504-b588-060af082e069)
-    (property "Reference" "R1" (at 118.872 45.466 0)
+    (property "Reference" "R89" (at 118.872 45.466 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 118.872 48.006 0)
@@ -3368,11 +3368,11 @@
     (pin "2" (uuid 75579b77-5167-48ca-b2c0-e9b0d6548ad0))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R1") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/cfb655df-f71d-4df8-a2fb-679f567a0f50"
           (reference "R89") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3381,7 +3381,7 @@
   (symbol (lib_id "power:GNDPWR") (at 21.844 145.796 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5f85f6c-4ab7-4a99-9f66-0aa56bec0cb6)
-    (property "Reference" "#PWR0507" (at 21.844 150.876 0)
+    (property "Reference" "#PWR097" (at 21.844 150.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 21.717 149.606 0)
@@ -3396,11 +3396,11 @@
     (pin "1" (uuid 71043cd1-87f8-4662-853b-86b6add84af8))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0507") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR097") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0507") (unit 1)
         )
       )
     )
@@ -3409,7 +3409,7 @@
   (symbol (lib_id "Device:R") (at 37.084 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed993a23-2331-47d2-8fbf-95f9469b0a3d)
-    (property "Reference" "R2" (at 39.624 87.63 0)
+    (property "Reference" "R54" (at 39.624 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 39.624 90.17 0)
@@ -3425,11 +3425,11 @@
     (pin "2" (uuid aac1dd78-7052-4c7d-8a4c-e0144940798a))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R2") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R54") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3438,7 +3438,7 @@
   (symbol (lib_id "Device:R") (at 25.654 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eea10ad6-4795-49e9-9ec6-dd5dea217a20)
-    (property "Reference" "R52" (at 24.384 90.17 0)
+    (property "Reference" "R46" (at 24.384 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "180R" (at 26.924 90.17 0)
@@ -3454,11 +3454,11 @@
     (pin "2" (uuid 7c1c112b-1b6c-4382-8125-8ee367926a2e))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "R52") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "R46") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -3467,7 +3467,7 @@
   (symbol (lib_id "power:GNDPWR") (at 21.082 94.234 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef981ac0-6247-4128-aa21-f192784ec330)
-    (property "Reference" "#PWR0514" (at 21.082 99.314 0)
+    (property "Reference" "#PWR0108" (at 21.082 99.314 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 26.924 95.758 0)
@@ -3482,11 +3482,11 @@
     (pin "1" (uuid adbbfe69-eb69-497e-ac95-ce62b9a61278))
     (instances
       (project "INDACT_baseboard"
-        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
-          (reference "#PWR0514") (unit 1)
-        )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/a9002198-8e1f-49fa-bbeb-5638f73a34ae"
           (reference "#PWR0108") (unit 1)
+        )
+        (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/f3f2c7e7-cde6-44b4-bab8-36d4081ef015"
+          (reference "#PWR0514") (unit 1)
         )
       )
     )
