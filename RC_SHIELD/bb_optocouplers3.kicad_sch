@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Karcsi (INDACT Robot Arm) - Wrist & EE optocouplers")
+    (title "Karcsi (INDACT Robot Arm) - Limit switch optocouplers")
     (date "2023-10-07")
     (rev "1.1")
     (company "LEGO Kör (legokor.hu)")
