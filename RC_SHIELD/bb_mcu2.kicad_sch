@@ -2441,12 +2441,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 91.44 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 097a1b1a-742b-4a7f-aa96-180aad503acd)
-    (property "Reference" "C8" (at 91.44 29.718 90)
+    (property "Reference" "C8" (at 91.44 29.2567 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10n" (at 91.44 32.004 90)
+    (property "Value" "10n" (at 91.44 31.6809 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 95.25 34.5948 0)
@@ -2469,7 +2469,7 @@
   (symbol (lib_id "power:GND") (at 36.83 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10294825-5f00-43d7-8fcb-a856d00c7e96)
-    (property "Reference" "#PWR0307" (at 36.83 43.18 0)
+    (property "Reference" "#PWR08" (at 36.83 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 41.91 0)
@@ -2485,7 +2485,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2516,19 +2516,19 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 68.58 25.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13a3805e-3362-41a9-a1d2-2d56d2e27147)
-    (property "Reference" "C5" (at 68.58 18.796 90)
+    (property "Reference" "C5" (at 68.58 19.0967 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100n" (at 68.58 21.336 90)
+    (property "Value" "100n" (at 68.58 21.5209 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 72.39 24.4348 0)
@@ -2551,7 +2551,7 @@
   (symbol (lib_id "power:+24V") (at 241.3 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c61566c-531e-4514-b9a7-1cf1b655ec87)
-    (property "Reference" "#PWR0303" (at 241.3 34.29 0)
+    (property "Reference" "#PWR019" (at 241.3 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 241.3 26.3469 0)
@@ -2567,19 +2567,19 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 25.4 48.26 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26b31ba4-268c-4631-b510-6a8815af04a7)
-    (property "Reference" "C2" (at 25.4 41.656 90)
+    (property "Reference" "C1" (at 25.4 41.9567 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "11p" (at 25.4 44.196 90)
+    (property "Value" "11p" (at 25.4 44.3809 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 29.21 47.2948 0)
@@ -2593,7 +2593,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2628,12 +2628,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 68.58 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ae06f5c-b4ea-4e97-898d-219044626697)
-    (property "Reference" "C6" (at 68.58 29.464 90)
+    (property "Reference" "C6" (at 68.58 29.2567 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100n" (at 68.58 32.004 90)
+    (property "Value" "100n" (at 68.58 31.6809 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 72.39 34.5948 0)
@@ -2656,7 +2656,7 @@
   (symbol (lib_id "power:GND") (at 19.05 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e01561-3626-4990-bb59-d6f700a9464c)
-    (property "Reference" "#PWR0309" (at 19.05 67.31 0)
+    (property "Reference" "#PWR07" (at 19.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.05 66.04 0)
@@ -2672,19 +2672,19 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0309") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 43.18 34.925 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3449d32b-ae2d-4658-a49a-991a41dbc02e)
-    (property "Reference" "C1" (at 43.18 29.21 90)
+    (property "Reference" "C3" (at 43.18 28.6217 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100n" (at 43.18 31.75 90)
+    (property "Value" "100n" (at 43.18 31.0459 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 46.99 33.9598 0)
@@ -2698,19 +2698,19 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 91.44 25.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 369fdd5c-adce-4c2a-b361-216a6ee4733c)
-    (property "Reference" "C7" (at 91.44 18.796 90)
+    (property "Reference" "C7" (at 91.44 19.0967 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1u" (at 91.44 21.082 90)
+    (property "Value" "1u" (at 91.44 21.5209 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 95.25 24.4348 0)
@@ -2733,10 +2733,10 @@
   (symbol (lib_id "Device:C") (at 53.34 28.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dcf04ad-3d60-41d2-a6cb-b35e36c25d68)
-    (property "Reference" "C4" (at 57.15 27.305 0)
+    (property "Reference" "C4" (at 56.261 27.3629 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4u7" (at 57.15 29.845 0)
+    (property "Value" "4u7" (at 56.261 29.7871 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 54.3052 32.385 0)
@@ -2781,7 +2781,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0311") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2790,7 +2790,7 @@
   (symbol (lib_id "power:GND") (at 132.08 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e17001c-1754-4720-b205-0fbaae495f23)
-    (property "Reference" "#PWR0312" (at 132.08 97.79 0)
+    (property "Reference" "#PWR018" (at 132.08 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 96.52 0)
@@ -2806,19 +2806,19 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0312") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 25.4 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50acae36-434d-4c71-95e0-a097ed02599a)
-    (property "Reference" "C3" (at 25.4 53.34 90)
+    (property "Reference" "C2" (at 25.4 53.3867 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "11p" (at 25.4 55.626 90)
+    (property "Value" "11p" (at 25.4 55.8109 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 29.21 58.7248 0)
@@ -2832,7 +2832,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2863,7 +2863,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2872,7 +2872,7 @@
   (symbol (lib_id "power:GND") (at 97.79 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 720cb6ab-8f5f-4f42-94f5-52b39c69d8b2)
-    (property "Reference" "#PWR0306" (at 97.79 41.91 0)
+    (property "Reference" "#PWR012" (at 97.79 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 40.64 0)
@@ -2888,7 +2888,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2897,7 +2897,7 @@
   (symbol (lib_id "power:GND") (at 62.23 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77d13013-c312-4f92-b975-d2e1e747d0b8)
-    (property "Reference" "#PWR0305" (at 62.23 41.91 0)
+    (property "Reference" "#PWR016" (at 62.23 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 40.64 0)
@@ -2913,7 +2913,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "power:GNDPWR") (at 243.84 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c54ee89-6ed3-4d2e-8de1-afba8a73c675)
-    (property "Reference" "#PWR0314" (at 243.84 134.62 0)
+    (property "Reference" "#PWR020" (at 243.84 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 243.713 133.2667 0)
@@ -2938,7 +2938,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0314") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2947,7 +2947,7 @@
   (symbol (lib_id "power:GND") (at 40.64 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fb4c1e0-4552-4c39-87e6-1087dd3fcbd6)
-    (property "Reference" "#PWR0310" (at 40.64 69.85 0)
+    (property "Reference" "#PWR09" (at 40.64 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 68.58 0)
@@ -2963,7 +2963,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0310") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2972,7 +2972,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 43.18 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91983bd8-4a04-482d-b6b8-31fbb246320c)
-    (property "Reference" "SW301" (at 43.18 19.6047 0)
+    (property "Reference" "SW1" (at 43.18 19.6047 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 43.18 22.0289 0)
@@ -2989,7 +2989,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "SW301") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -2998,10 +2998,10 @@
   (symbol (lib_id "MCU_ST_STM32F0:STM32F030K6Tx") (at 77.47 67.31 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad0a2c5e-9a2a-4975-8cf3-bdd8bb4ed8c1)
-    (property "Reference" "U1" (at 82.2041 92.71 0)
+    (property "Reference" "U1" (at 82.2041 91.8901 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32F030K6Tx" (at 82.2041 95.25 0)
+    (property "Value" "STM32F030K6Tx" (at 82.2041 94.3143 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" (at 67.31 90.17 0)
@@ -3116,7 +3116,7 @@
   (symbol (lib_id "power:GND") (at 80.01 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7078012-d3bf-4e4f-bb89-247a476570cb)
-    (property "Reference" "#PWR0313" (at 80.01 101.6 0)
+    (property "Reference" "#PWR014" (at 80.01 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 100.33 0)
@@ -3132,7 +3132,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0313") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3189,7 +3189,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3198,10 +3198,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 138.43 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2488fde-f648-489b-b67f-002e8dce2b9d)
-    (property "Reference" "J1" (at 140.97 83.82 0)
+    (property "Reference" "J1" (at 140.462 83.8779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SWD" (at 140.97 86.36 0)
+    (property "Value" "SWD" (at 140.462 86.3021 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 138.43 85.09 0)
@@ -3227,7 +3227,7 @@
   (symbol (lib_id "power:GND") (at 58.42 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc0a631f-cd64-441f-a8a1-d242fb153208)
-    (property "Reference" "#PWR0308" (at 58.42 57.15 0)
+    (property "Reference" "#PWR011" (at 58.42 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 55.88 0)
@@ -3243,7 +3243,7 @@
     (instances
       (project "INDACT_baseboard"
         (path "/7452de7b-fe1f-4c88-92ed-f4b76d6208d2/5a8a22d1-01c4-445f-8585-ea064155dbe9"
-          (reference "#PWR0308") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
