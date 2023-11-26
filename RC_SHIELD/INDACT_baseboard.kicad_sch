@@ -88,7 +88,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid cfb655df-f71d-4df8-a2fb-679f567a0f50)
-    (property "Sheetname" "Limit_switches" (at 160.655 117.3984 0)
+    (property "Sheetname" "ALF & BET axes & Servo optocouplers" (at 160.655 117.3984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "bb_optocouplers3.kicad_sch" (at 160.655 159.3346 0)

@@ -5385,7 +5385,7 @@
   )
 
   (symbol (lib_id "ESP8266-01_ESP-01:ESP8266-01/ESP-01") (at 180.975 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64298549-c1e9-44b3-8c41-9318aae7ba09)
     (property "Reference" "U3" (at 180.975 20.32 0)
       (effects (font (size 1.27 1.27)))
@@ -7204,7 +7204,7 @@
   )
 
   (symbol (lib_id "Display_Character:LCD-016N002L") (at 184.15 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ee30daec-500b-4a3f-b413-4035a5bf40bf)
     (property "Reference" "U4" (at 187.96 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
