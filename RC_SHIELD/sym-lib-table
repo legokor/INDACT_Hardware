@@ -1,9 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "NUCLEO-F746ZG")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/NUCLEO-F746ZG/NUCLEO-F746ZG.kicad_sym")(options "")(descr ""))
-  (lib (name "SFH6345")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/SFH6345/SFH6345.kicad_sym")(options "")(descr ""))
-  (lib (name "ESP8266-01_ESP-01")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/ESP-01/ESP8266-01_ESP-01.kicad_sym")(options "")(descr ""))
-  (lib (name "SN75LBC179AD")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/SN75LBC179AD/SN75LBC179AD.kicad_sym")(options "")(descr ""))
-  (lib (name "DB9W4P500H30LF")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/DB9W4P500H30LF/DB9W4P500H30LF.kicad_sym")(options "")(descr ""))
-  (lib (name "LM3940IMP-3.3_NOPB")(type "KiCad")(uri "C:/Users/Andi/Desktop/Andi/SULI/BME/Legokor/INDACT/schematics/LM3940IMP-3/LM3940IMP-3.3_NOPB.kicad_sym")(options "")(descr ""))
-)
