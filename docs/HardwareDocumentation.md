@@ -9,7 +9,7 @@ This document describes the hardware aspect (mechanical construction, power dist
 
 > TODO complete this section with mCAD models and diagrams
 
-The robot arm is constructed from extruded aluminium profiles, machined stainless steel plates, aluminium spacer rods, and held together with screws. A vertical profile and a paralel ball screw are mounted on a rotary base, forming the **Z axis** of the arm's movement. A carriage riding on this profile is connected to another, horizontal profile, which forms the **R axis**. The end-effector, currently a 3D-printed mechanical hand with 5 fingers, is attached to one end of the R axis profile.
+The robot arm is constructed from extruded aluminium profiles, machined stainless steel plates, aluminium spacer rods, and held together with screws. A vertical profile and a paralel ball screw are mounted on a rotary base, forming the **Z axis** of the arm's movement. A carriage riding on this profile is connected to another, horizontal profile, which forms the **R axis**. The end-effector, currently a 3D-printed mechanical anthropomorphic hand with 5 fingers, is attached to one end of the R axis profile.
 
 The base enables rotary movement (**Phi axis**), realised by a stepper motor and belt-drive. The Z axis movement is realised by a stepper motor, mounted at the upper end of the Z axis profile, driving the ball screw. The R axis movement is realised by a stepper motor mounted on the carriage, driving a studded belt fastened to the R axis profile, similarly to how some laser-engravers and 3D printers move. The movement of the fingers is realised by 3 servos inside the palm section of the hand assembly.
 
@@ -17,23 +17,25 @@ We plan to extend the arm's movement capabilities by introducing up to 3 more de
 
 # Power distribution
 
-The arm is powered from the European power grid (**single-phase 230V 50Hz AC**) through the Electronics Box. This enclosure is equipped with a RCD, circuit breaker, mains switch, and 3 separate, galvanically isolated switch-mode AC-to-DC power supplies:
+The arm is powered from the European power grid (**single-phase 230V 50Hz AC**) through the Electronics Box. This enclosure is equipped with 3 separate, galvanically isolated switch-mode AC-to-DC power supplies:
 
 * **PSU1** supplies +24V DC to the stepper motor drivers, is sized to continuously withstand the high currents the motors draw, and wired directly to the motor drivers in the Electronics Box.
-* **PSU2** supplies +24V DC to the control electronics, for long distance signal wiring, powering a cooling fan, and optical isolation. This 24V power line is routed through the Main Control Board and auxiliary control boards. The auxiliary control boards derive their own 5V power from PSU2 with switch-mode 24VDC-to-5VDC Buck converters.
+* **PSU2** supplies +24V DC to the control electronics, for long distance signal wiring, powering industrial sensors inside the arm, powering the cooling fans of the Electronics Box, and driving optical signal isolators. This 24V power line is routed through the Main Control Board and auxiliary control boards. The auxiliary control boards derive their own 5V power from PSU2 with switch-mode 24VDC-to-5VDC Buck converters.
 * **PSU3** supplies +5V DC to the control electronics, to power digital control and measurement circuitry. This 5V power line is routed through the Main Control Board. The Main Control Board creates a 3.3V supply rail for logic-level circuitry with a 5V-to-3V3 Low-Dropout linear regulator (LDO).
 
-The **Emergency Stop** (ESTOP) button breaks the PSU1 24V circuit, but not 5V, so the ESTOP event can be logged by the control logic.
+The **Emergency Stop** (ESTOP) button breaks the PSU1 24V circuit, but not PSU3 5V, so the ESTOP event can be logged by the control logic.
 
 The diagram below shows how power is distributed.
 
-![Power distribution diagram](./power.png)
+
+
+![Power distribution diagram](./INDACT_powerDiagram.png)
 
 # Control and data flow
 
 ## The main microcontroller
 
-The arm is mainly controlled and programmed through **ROS** (the Robot Operating System) running on a PC or laptop connected via Ethernet to the Electronics Box. Direct control is possible from a remote (or smartphone web GUI) connected over Wifi, a LeapMotion sensor and application also connected over Wifi, or a wired remote (for debugging and tesing purposes).
+The arm is mainly controlled and programmed through **ROS** (the Robot Operating System) running on a PC, laptop, or SBC (like a Raspberry Pi) connected via Ethernet to the Electronics Box. ROS performs path optimization, and solves the kinematic equations of the arm. Direct axis control is possible from a remote (or smartphone web GUI) connected over Wifi, a LeapMotion sensor and application also connected over Wifi, or a wired remote (for debugging and tesing purposes).
 
 An **STM32F7**46ZG microcontroller running **micro-ROS** firmware (located on a **Nucleo-F746** development board, connected to the Main Control Board via pin headers) performs low-level control and telemetry data collection:
 
@@ -41,9 +43,9 @@ An **STM32F7**46ZG microcontroller running **micro-ROS** firmware (located on a 
 * Controls the **motor drivers** for the Phi, R, Z (and optionally Theta) axes
 * Controls the current, hand-like  **end-effector's servos**
 * Measures and reports the movement speed and position of the arm, through **limit switches, position sensing gates and motor encoders**
-* Communicates with the Wifi remote through an **ESP-01 Wifi module**
+* Communicates with the Wifi remote or LeapMotion application through an **ESP-01 Wifi module**
 * Handles **Emergency Stop** events, the **Electronics Box being opened** during operation, or a limit switch being triggered, and stops the arm according to the given rules
-* Regulates the temperature of the Electronics Box through two **fans and a temperature sensor**
+* Regulates the temperature of the Electronics Box through two **cooling fans and a temperature sensor**
 * Communicates with any future smart end-effector over **MODBUS** (TIA/EIA-485)
 * Handles the **wired remote** button inputs.
 * Displays status and error messages on a 2x16 **character lCD**
@@ -56,26 +58,26 @@ Detailed information (including datasheet) about the microcontroller can be foun
 ## Peripherals
 
 * The STM32F7 microcontroller can only read 4 separate encoders (due to timer limitations), so for complete and precise control in 6 degrees of freedom, an additional Cortex-M0-based, smaller microcontroller may be soldered directly to the Main Control Board, to extend the timer capabilities of the Nucleo, and thus control the planned **Alpha and Beta axes**, and report back their position and speed. This microcontroller communicates with the Nucleo over I2C. For this task, the **STM32F030K6Tx** microcontroller was selected. It is readily available, affordable, and has enough peripherals for controlling 2 motors.
-* The Wifi remote and LeapMotion application connect over Wifi to an ESP-01 Wifi module, connected to the Nucleo over a full-duplex serial (UART) connection (and 4 additional GPIO control signals).
-* The wired remote features one pushbutton for each direction of each axis and servo, up to 18 in total, pulling a corresponding GPIO input to ground.
-* All axes feature limit switches to prevent movement outside the safe operating movement range. These are all connected to correspoding GPIO pins.
-* Some axes feature additional position sensing gates to aid the robot in determining its position and define a home position. These are all connected to corresponding GPIO pins.
-* The Nucleo development board features built-in Ethernet and USB-OTG connectivity, 3 programmable LED outputs, 2 pushbutton inputs, and JTAG and ST-LINK programming interfaces.
-* Each axis requires a motor driver (located in the Electronics Box), which are controlled with Step, Direction and Enable signals for each. Direction and Enable signals are simple GPIO outputs, but Step signals need to be generated with timers, preferably a separate timer for each axis. The steper motors connect directly to the motor drivers.
-* The 3 servos of the end-effector are controlled by PWM signals, one each. These can be from the same timer.
-* All axes feature encoders to accurately measure the rotational speed and angle of the motors. These require 2 channels of an encoder-compatible timer each.
-* The Electronics Box cooling fans are PWM-controlled through a MOSFET, and thus require one channel of any one timer.
-* The character LCD module is connected to the Nucleo over a 11-pin paralel GPIO interface, and its backlight LED is PWM-controlled through a MOSFET (also requiring one channel of any one timer).
-* The Electronics Box internal temperature is measured with a BME-280 temperature sensor, connected to the Nucleo over I2C.
-* The ESTOP button, and the switch detecting the Electronics Box being open, both pull one GPIO pin each to ground.
-* For intercompatibility with future smart end-effectors, a MODBUS (TIA/EIA-485, full-duplex differential UART) link is provided from the Nucleo, through a TIA/EIA-485 transceiver.
+* The Wifi remote and LeapMotion application connect over Wifi to an **ESP-01** Wifi module, connected to the Nucleo over a full-duplex serial (UART) connection (and 4 additional GPIO control signals).
+* The **wired remote** features one pushbutton for each direction of each axis and servo, up to 18 in total, pulling a corresponding GPIO input to ground.
+* All axes feature **limit switches** to prevent movement outside the safe operating movement range. These are all connected to correspoding GPIO pins.
+* Some axes feature additional **position sensing gates** to aid the robot in determining its position and define a home position. These are all connected to corresponding GPIO pins.
+* The Nucleo development board features built-in **Ethernet** and **USB-OTG** connectivity, 3 programmable LED outputs, 2 pushbutton inputs, and JTAG and ST-LINK programming interfaces.
+* Each axis requires a **motor driver** (located in the Electronics Box), which are controlled with Step, Direction and Enable signals for each. Direction and Enable signals are simple GPIO outputs, but Step signals need to be generated with timers, preferably a separate timer for each axis. The stepper motors connect directly to the motor drivers.
+* The 3 **servos** of the end-effector are controlled by PWM signals, one each. These can be from the same timer.
+* All axes feature **encoders** to accurately measure the rotational speed and angle of the motors. These require 2 channels of an encoder-compatible timer each.
+* The Electronics Box **cooling fans** are PWM-controlled through a MOSFET, and thus require one channel of any one timer.
+* The **2x16 character LCD** module is connected to the Nucleo over a 11-pin paralel GPIO interface, and its backlight LED is PWM-controlled through a MOSFET (also requiring one channel of any one timer).
+* The Electronics Box internal temperature is measured with a **BME-280 temperature sensor**, connected to the Nucleo over I2C.
+* The **ESTOP button**, and the Electronics Box **lid switch**, both pull one GPIO pin each to ground.
+* For intercompatibility with future smart end-effectors, a **MODBUS** (TIA/EIA-485, full-duplex differential UART) link is provided from the Nucleo, through a TIA/EIA-485 transceiver.
 
-For better signal integrity, electrical safety, reliability and ESD-protection, all low-current signals travelling long distances (encoders, position sensing gates, limit switches, end-effector servos) are optically isolated on both ends, and shifted to 24V levels.
+For better signal integrity, electrical safety, reliability and ESD-protection, all low-current signals travelling long distances (encoders, position sensing gates, limit switches, end-effector servos) are optically isolated on the Main Control Board, and shifted to 24V levels.
 The MODBUS link does not require optical isolation, as it uses a shielded, impedance-controlled, duplex differential twisted pair trunk cable terminated on both ends, operating at 5V line levels, and all devices on it connect via line driver buffers (TIA/EIA-485 transceivers). This works well in the industry for distances over kilometers long, and rather noisy environments. More info can be found [here](https://modbus.org/docs/Modbus_over_serial_line_V1_02.pdf "MODBUS over Serial documentation")
 
 The diagram below shows how control signals and peripherals are connected.
 
-![Control signals diagram](./control.png)
+![Control signals diagram](./INDACT_dataFlowDiagram.png)
 
 Microcontroller connections for the Nucleo board:
 
@@ -294,10 +296,7 @@ The electronics operating the arm are categorised by location as follows:
 1. The Electronics Box
     1. Mains voltage circuitry
         * Mains power input connector (P09)
-        * RCD
-        * 6A circuit breaker
-        * Mains power switch
-        * Protective Earth connection
+        * Protective Earth chassis connection
         * Line and Neutral distribution blocks
     2. Galvanically isolated power supplies
         * PSU1: 24V DC, wired directly to motor drivers
@@ -323,7 +322,7 @@ The electronics operating the arm are categorised by location as follows:
         * 2x16 character LCD module (3.3V power, 11-wire paralel interface, contrast setting with trimmer potentiometer between 3.3V and ground, backlight LED PWM-controlled through N-channel MOSFET (BSS123) and series resistor) {1x16 pin header}
         * N-channel MOSFET to PWM-control cooling fans (BSS123)), {two 2-pin fan headers wired in paralel}
         * SFH6345 digital optocouplers for limit switch, encoder, position gate signals (input 3.3V from Nucleo or secondary microcontroller, 
-        * Screw terminals for power input (24V, COM_PSU2, 5V, COM_PSU3), ESTOP (COM_PSU3, GPIO), Electronics Box door switch (COM_PSU3, GPIO), motor driver control signals (6x3 GPIO + 6x COM_PSU3)
+        * Screw terminals for power input (24V, COM_PSU2, 5V, COM_PSU3), ESTOP (COM_PSU3, GPIO), Electronics Box lid switch (COM_PSU3, GPIO), motor driver control signals (6x3 GPIO + 6x COM_PSU3)
         * P05a DB-25 connector to wired remote (18 GPIOs, 7x COM_PSU3)
         * Conenction to Aux Control Boards and smart end-effector (detailed in section 2 of this list) (24V power, encoder, limit switch, position gate GPIOs, servo PWM signals, MODBUS) (P03a DB-37 connector for sensor signals, PSU2 24V power and COM_PSU2; P04a DB-9 connector for MODBUS and servos)
     4. Other miscellania
@@ -337,17 +336,20 @@ The electronics operating the arm are categorised by location as follows:
         * Mounting hardware
 3. Mounted in the robot arm base
     1. Aux. Control Board 1: mounted inside the robot arm base
-        * 24V to 5V Buck converter and 5V to 3.3V LDO, LED indicator
+        * 24V to 5V Buck converter () and 5V to 3.3V LDO (), power indicator LEDs
         * decoupling capacitors
-        * SFH6345 optocouplers for Phi axis encoder (2x), Phi axis limit switch (2x), Phi axis position gate (1x) signals
+        * N-channel MOSFETs to drive the cable side of Phi axis encoder (2x), Phi axis limit switch (2x), Phi axis position gate (1x) signals
         * connection to Phi axis encoder, Phi axis limit switches, Phi axis position gate (vertical pin headers)
         * connection to Aux. Control Board 2 (P10a, DB-15 socket) and Aux. Control Board 3 (P11a, DB-25 socket)
         * connection to Electronics Box (P03d, DB-37 pin)
+    2. Phi axis stepper motor + Phi axis encoder
+    3. Phi axis limit switches and position gate
+    4. P01d and P02d motor coil connectors + motor wire harness
 2. Mounted near the Z axis profile
     1. Aux. Control Board 2: mounted on the back of the Z axis profile approx. in the middle
-        * 24V to 5V Buck converter and 5V to 3.3V LDO, LED indicator
+        * 24V to 5V Buck converter () and 5V to 3.3V LDO (), power indicator LEDs
         * decoupling capacitors
-        * SFH6345 optocouplers for Z axis encoder (2x), Z axis limit switch (2x), Z axis position gate (1x), R axis encoder (2x) signals
+        * N-channel MOSFETs to drive the cable side of Z axis encoder (2x), Z axis limit switch (2x), Z axis position gate (1x), R axis encoder (2x) signals
         * connection to Z axis encoder, Z axis limit switches, Z axis position sensing gate, R axis encoder (horizontal pin headers)
         * connector to Aux. Control Board 1 (P10d, DB-15 pin)
     2. Z axis stepper motor + Z axis encoder
@@ -356,9 +358,10 @@ The electronics operating the arm are categorised by location as follows:
     6. Wiring harness and plastic cable guide
 3. Mounted near the R axis profile
     1. Aux. Control Board 3: mounted on the front of the R axis profile towards the end-effector
-        * 24V to 5V Buck converter and 5V to 3.3V LDO, LED indicator
+        * 24V to 5V Buck converter () and 5V to 3.3V LDO (), power indicator LEDs
         * decoupling capacitors
-        * SFH6345 optocouplers for R axis limit switch (2x), R axis position gate (1x), Theta axis encoder (2x), Theta axis limit switch (2x), Theta axis position gate (1x), Alpha axis encoder (2x), Alpha axis limit switch (2x), Beta axis encoder (2x), Beta axis limit switch (2x), End-effector servo PWM (3x) signals
+        * N-channel MOSFETs to drive the cable side of R axis limit switch (2x), R axis position gate (1x), Theta axis encoder (2x), Theta axis limit switch (2x), Theta axis position gate (1x), Alpha axis encoder (2x), Alpha axis limit switch (2x), Beta axis encoder (2x), Beta axis limit switch (2x)
+        * N-channel MOSFETs to drive the End-Effector Servo PWM signals (3x)
         * connection to end-effector servos, Alpha, Beta and Theta axis encoders, R, Alpha, Beta and Theta axis limit switches, R axis position gate (horizontal pin headers)
         * MODBUS termination (without pull-up and pull-down resistors and shield connection), line driver (TIA/EIA-485 transceiver), P04f DB-9 pin connector input (with servos), output to end-effector P13 DB-9 socket connector (original MODBUS)
         * connector to Aux. Control Board 1 (P11d, DB-25 pin)
