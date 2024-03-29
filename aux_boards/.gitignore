@@ -1,7 +1,0 @@
-# Standard Gitignore file for KiCAD projects
-
-*-backups/
-fp-info-cache
-fp-lib-table
-\#auto_saved_files\#
-*.lck
