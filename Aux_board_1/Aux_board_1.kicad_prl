@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -80,15 +80,27 @@
   "project": {
     "files": [
       {
-        "name": "Aux_board_1.kicad_sch",
-        "open": true,
+        "name": "Aux_board_1.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 532,
           "pos_y": 421,
           "size_x": 1280,
-          "size_y": 808
+          "size_y": 764
+        }
+      },
+      {
+        "name": "Aux_board_1.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2650,
+          "pos_y": -15,
+          "size_x": 1280,
+          "size_y": 851
         }
       }
     ]
