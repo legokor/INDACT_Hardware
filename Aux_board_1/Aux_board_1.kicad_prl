@@ -90,18 +90,6 @@
           "size_x": 1280,
           "size_y": 764
         }
-      },
-      {
-        "name": "Aux_board_1.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2650,
-          "pos_y": -15,
-          "size_x": 1280,
-          "size_y": 851
-        }
       }
     ]
   }
