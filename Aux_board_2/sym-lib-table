@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "power_modules")(type "KiCad")(uri "/home/koma111/Dokumentumok/EGYETEM/SImonyi/Legokör/INDACT/INDACT_Hardware_aux/power_modules.kicad_sym")(options "")(descr ""))
+  (lib (name "SFH6345")(type "KiCad")(uri "/home/koma111/Dokumentumok/EGYETEM/SImonyi/Legokör/INDACT/INDACT_Hardware_aux/SFH6345.kicad_sym")(options "")(descr ""))
+)

@@ -9944,7 +9944,7 @@
 		)
 		(uuid "4adf69e8-24ca-4b0a-aabe-24f46f3d2569")
 	)
-	(label "PHIL_LIM_CLW_IN"
+	(label "PHI_LIM_CLW_IN"
 		(at 123.19 111.76 90)
 		(fields_autoplaced yes)
 		(effects
