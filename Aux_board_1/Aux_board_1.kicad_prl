@@ -83,12 +83,12 @@
         "name": "Aux_board_1.kicad_pcb",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 353,
-          "pos_y": 202,
+          "pos_x": 2426,
+          "pos_y": -144,
           "size_x": 1280,
-          "size_y": 778
+          "size_y": 746
         }
       },
       {
