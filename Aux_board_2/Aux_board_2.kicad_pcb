@@ -177,7 +177,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 4.385 -2.27 270)
+			(at 4.385 -2.27 -90)
 			(layer "F.SilkS")
 			(uuid "5c7894dc-7a45-4500-b65e-8192625f1fac")
 			(effects
@@ -188,7 +188,7 @@
 			)
 		)
 		(property "Value" "Z_LIM_UP"
-			(at 4.385 7.35 270)
+			(at 4.385 7.35 -90)
 			(layer "F.Fab")
 			(uuid "212d98b6-ef3f-4471-9f10-af756ef11ee3")
 			(effects
@@ -5380,7 +5380,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 0 4.500001 270)
+			(at 0 4.500001 -90)
 			(layer "F.Fab")
 			(uuid "9bf03b04-efcf-4d3d-9366-4c84f2d03816")
 			(effects
@@ -7797,7 +7797,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J6"
-			(at 4.385 -2.27 270)
+			(at 4.385 -2.27 -90)
 			(layer "F.SilkS")
 			(uuid "27413293-dadd-4cc9-b243-e9a3d5a04df9")
 			(effects
@@ -7808,7 +7808,7 @@
 			)
 		)
 		(property "Value" "Z_HOME"
-			(at 4.385 7.35 270)
+			(at 4.385 7.35 -90)
 			(layer "F.Fab")
 			(uuid "9e36a695-a7b4-4047-8713-6093e70846f9")
 			(effects
@@ -9963,7 +9963,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 0 1.8384 360)
+			(at 0 1.8384 0)
 			(layer "F.SilkS")
 			(uuid "2f06a194-6b5e-46f3-a955-c892aa35ca65")
 			(effects
@@ -9974,7 +9974,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e05c37d6-51c5-4a7e-be71-aff2a0555a3d")
 			(effects
@@ -10146,7 +10146,7 @@
 			(uuid "5e92a5d4-94b7-45de-969d-79a91a8550b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "05ce38bc-4b4c-414f-bfeb-c7b86c07afc1")
 			(effects
@@ -11143,7 +11143,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
-			(at -0.024999 2 360)
+			(at -0.024999 2 0)
 			(layer "F.SilkS")
 			(uuid "39c58752-730c-43a5-8745-d3b02cfca4af")
 			(effects
@@ -11154,7 +11154,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "93425bd4-f64b-49db-a919-d63a546d6d5b")
 			(effects
@@ -11326,7 +11326,7 @@
 			(uuid "063fcc42-ffa1-487c-86d4-191dbe2751f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fdfa4af1-f211-45ad-9e8a-8628a2c986da")
 			(effects
@@ -12743,7 +12743,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0 1.8384 360)
+			(at 0 1.8384 0)
 			(layer "F.SilkS")
 			(uuid "7da72aad-82c7-43d1-bb18-f6f9c5a8778d")
 			(effects
@@ -12754,7 +12754,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "1dd0d676-1694-41f9-bf45-2b509ec59363")
 			(effects
@@ -12926,7 +12926,7 @@
 			(uuid "29137ac2-da1b-4295-9947-4fca453bad6d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "04688033-a7d5-4b00-8a6b-f2d5f4cb8b28")
 			(effects
@@ -17285,7 +17285,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "587d55fc-934f-4bd0-a0ce-9d516be35f99")
 			(effects
@@ -17296,7 +17296,7 @@
 			)
 		)
 		(property "Value" "560R"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "c55171d9-664f-4909-be66-2ce034fb4eb6")
 			(effects
@@ -17448,7 +17448,7 @@
 			(uuid "05d63bab-41cb-4927-8477-1cf6e62f6b5c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "80c54370-0627-4e9f-8661-548ef118eda1")
 			(effects
@@ -17495,7 +17495,7 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 4.385 -2.27 270)
+			(at 4.385 -2.27 -90)
 			(layer "F.SilkS")
 			(uuid "b530ecd2-ae1f-4fd1-9354-062bd5ad870d")
 			(effects
@@ -17506,7 +17506,7 @@
 			)
 		)
 		(property "Value" "Z_ENC"
-			(at 4.385 9.89 270)
+			(at 4.385 9.89 -90)
 			(layer "F.Fab")
 			(uuid "0e2df426-9998-4075-9b61-809ed7d11521")
 			(effects
