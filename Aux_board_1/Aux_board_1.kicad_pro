@@ -608,12 +608,18 @@
           "group_by": false,
           "label": "Supplier URL",
           "name": "Supplier URL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sourced",
+          "name": "Sourced",
           "show": false
         }
       ],

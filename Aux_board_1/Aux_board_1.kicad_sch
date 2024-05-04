@@ -10606,6 +10606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be9812b5-6d27-4cac-9096-68b814651165")
 		)
@@ -10700,6 +10709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7e56035-be53-4d8e-bd1d-ce4411775d79")
 		)
@@ -10754,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "https://lomex.hu/pdf/yet/(yet)_bss84kj.pdf"
 			(at 115.57 48.26 0)
 			(effects
 				(font
@@ -10765,6 +10783,42 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Lomex"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://lomex.hu/hu/webshop/#page,0/search,86-07-17/stype,1"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "86-07-17"
 			(at 110.49 44.45 0)
 			(effects
 				(font
@@ -10873,6 +10927,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d53ba5c7-d7d4-468b-afc5-6dc0df5996b9")
 		)
@@ -10953,6 +11016,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -11124,6 +11196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd6b4c61-a032-4819-b4f8-c8132f1ce249")
 		)
@@ -11216,6 +11297,15 @@
 			)
 		)
 		(property "Supplier item no" "86-07-11"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -11324,6 +11414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1efe9a51-9568-4925-965e-06c720bd7c4f")
 		)
@@ -11404,6 +11503,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 64.77 38.1 0)
 			(effects
 				(font
@@ -11506,6 +11614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2feb7516-c632-4ac1-85c4-07d2a13d4fb8")
 		)
@@ -11600,6 +11717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab6c1f18-e6d1-4734-90ee-553500ac5d37")
 		)
@@ -11654,7 +11780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "https://lomex.hu/pdf/yet/(yet)_bss84kj.pdf"
 			(at 149.86 48.26 0)
 			(effects
 				(font
@@ -11665,6 +11791,42 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Lomex"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://lomex.hu/hu/webshop/#page,0/search,86-07-17/stype,1"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "86-07-17"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -11900,6 +12062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c3f39ab-302e-462e-9138-35c6c64681c9")
 		)
@@ -11988,6 +12159,15 @@
 			)
 		)
 		(property "Supplier item no" "43-03-71"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -12153,6 +12333,15 @@
 			)
 		)
 		(property "Supplier item no" "43-27-91"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -12592,6 +12781,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 193.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74715b3d-1301-4ce9-bcfb-081f29273c90")
 		)
@@ -12746,6 +12944,15 @@
 			)
 		)
 		(property "Supplier item no" "C304192"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -12914,6 +13121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 149.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cd99427-476d-4d56-9693-cf45b659d699")
 		)
@@ -13003,6 +13219,15 @@
 			)
 		)
 		(property "Supplier item no" "-"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "-"
 			(at 60.96 149.86 0)
 			(effects
 				(font
@@ -13105,6 +13330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "-"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0cf0287-c40a-41e9-ba4d-039a47039373")
 		)
@@ -13156,7 +13390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "https://lomex.hu/pdf/yet/(yet)_bss84kj.pdf"
 			(at 81.28 48.26 0)
 			(effects
 				(font
@@ -13167,6 +13401,42 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Lomex"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://lomex.hu/hu/webshop/#page,0/search,86-07-17/stype,1"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "86-07-17"
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -13266,6 +13536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10fed267-69f1-4e17-aaf8-43186e739671")
 		)
@@ -13320,7 +13599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "https://lomex.hu/pdf/yet/(yet)_bss84kj.pdf"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -13331,6 +13610,42 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Lomex"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://lomex.hu/hu/webshop/#page,0/search,86-07-17/stype,1"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "86-07-17"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -13495,6 +13810,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "057b0bb1-1e26-454a-8f1d-1fa9dc7a8225")
 		)
@@ -13649,6 +13973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10fed267-69f1-4e17-aaf8-43186e739672")
 		)
@@ -13746,6 +14079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "-"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0cf0287-c40a-41e9-ba4d-039a47039374")
 		)
@@ -13823,6 +14165,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-95"
+			(at 157.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -14050,6 +14401,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d19cc9bb-ad66-46d3-9452-1c765f3d77c4")
 		)
@@ -14137,6 +14497,15 @@
 			)
 		)
 		(property "Supplier item no" "-"
+			(at 22.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 22.86 69.85 0)
 			(effects
 				(font
@@ -14305,6 +14674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40cc631a-6526-4787-93fd-fccca550ad40")
 		)
@@ -14391,6 +14769,15 @@
 			)
 		)
 		(property "Supplier item no" "C304192"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -14487,6 +14874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c922188c-ae9b-400a-8c99-76f3553ee074")
 		)
@@ -14574,6 +14970,15 @@
 			)
 		)
 		(property "Supplier item no" "100.381.18"
+			(at 90.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 90.17 166.37 0)
 			(effects
 				(font
@@ -14680,6 +15085,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -14916,6 +15330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "-"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a27c4a9-a2d1-4e55-81b6-62687f91fcce")
 		)
@@ -15075,6 +15498,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1efe9a51-9568-4925-965e-06c720bd7c50")
 		)
@@ -15169,6 +15601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab6c1f18-e6d1-4734-90ee-553500ac5d39")
 		)
@@ -15249,6 +15690,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-95"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 54.61 77.47 0)
 			(effects
 				(font
@@ -15422,6 +15872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbedc72a-1ff2-464c-a46d-e358184489ce")
 		)
@@ -15514,6 +15973,15 @@
 			)
 		)
 		(property "Supplier item no" "3147-B1701NG--20D000314U1930CT-ND"
+			(at 54.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 54.61 168.91 0)
 			(effects
 				(font
@@ -15619,6 +16087,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10fed267-69f1-4e17-aaf8-43186e739673")
 		)
@@ -15711,6 +16188,15 @@
 			)
 		)
 		(property "Supplier item no" "86-07-11"
+			(at 130.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 130.81 68.58 0)
 			(effects
 				(font
@@ -15882,6 +16368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c39db8e-9979-4993-931a-83fb1a332386")
 		)
@@ -15970,6 +16465,15 @@
 			)
 		)
 		(property "Supplier item no" "43-03-71"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -16101,7 +16605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" "https://lomex.hu/pdf/yet/(yet)_bss84kj.pdf"
 			(at 219.71 48.26 0)
 			(effects
 				(font
@@ -16112,6 +16616,42 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Lomex"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://lomex.hu/hu/webshop/#page,0/search,86-07-17/stype,1"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "86-07-17"
 			(at 214.63 44.45 0)
 			(effects
 				(font
@@ -16203,6 +16743,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -16356,6 +16905,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -16530,6 +17088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "790274f0-6c09-44dc-be97-b47f43bd9cc7")
 		)
@@ -16687,6 +17254,15 @@
 			)
 		)
 		(property "Supplier item no" "82-11-74"
+			(at 154.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 154.94 168.91 0)
 			(effects
 				(font
@@ -16856,6 +17432,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 22.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a56d71e-332b-4479-8ee6-c1b4ee47f0ee")
 		)
@@ -16986,6 +17571,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 203.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e90cac8-16a9-4b59-a380-5792a3280bea")
 		)
@@ -17073,6 +17667,15 @@
 			)
 		)
 		(property "Supplier item no" "C6186"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 146.05 161.29 0)
 			(effects
 				(font
@@ -17170,6 +17773,15 @@
 			)
 		)
 		(property "Supplier item no" "AE10986-ND"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 271.78 82.55 0)
 			(effects
 				(font
@@ -17439,6 +18051,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2243bd4f-ddd6-4cb2-aacb-cb35d7f811e3")
 		)
@@ -17599,6 +18220,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "0"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47b11d62-b3cf-4052-a791-54b8c4df12b6")
 		)
@@ -17688,6 +18318,15 @@
 			)
 		)
 		(property "Supplier item no" "82-11-74"
+			(at 109.22 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 109.22 168.91 0)
 			(effects
 				(font
@@ -17927,6 +18566,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sourced" "1"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9c4352a-21ce-44d3-b8ec-f1207dbb2762")
 		)
@@ -18010,6 +18658,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 167.64 38.1 0)
 			(effects
 				(font
@@ -18104,6 +18761,15 @@
 			)
 		)
 		(property "Supplier item no" "C304192"
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "0"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -18257,6 +18923,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-84"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
 			(at 113.03 71.12 0)
 			(effects
 				(font

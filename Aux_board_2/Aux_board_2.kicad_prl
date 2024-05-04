@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_ffffffff",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -81,14 +81,14 @@
     "files": [
       {
         "name": "Aux_board_2.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 532,
-          "pos_y": 355,
-          "size_x": 1280,
-          "size_y": 851
+          "pos_x": 353,
+          "pos_y": 187,
+          "size_x": 1854,
+          "size_y": 1065
         }
       },
       {
@@ -97,10 +97,10 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 532,
-          "pos_y": 421,
+          "pos_x": 353,
+          "pos_y": 236,
           "size_x": 1280,
-          "size_y": 708
+          "size_y": 652
         }
       }
     ]

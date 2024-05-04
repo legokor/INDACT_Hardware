@@ -177,7 +177,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -597,6 +598,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier item no",
+          "name": "Supplier item no",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sourced",
+          "name": "Sourced",
+          "show": true
         }
       ],
       "filter_string": "",
