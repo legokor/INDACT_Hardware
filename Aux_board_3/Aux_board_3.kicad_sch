@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aaa7ce82-fd86-4c66-99d9-b7746a947d4d")
+	(paper "A4")
+	(title_block
+		(title "Karcsi (INDACT Robot Arm) - Aux. Control Board 3")
+		(date "2024-05-04")
+		(rev "1.0")
+		(company "LEGO Kör (legokor.hu)")
+		(comment 1 "Designed by Panka Horváth, Gergely Halász, Máté Kovács")
+		(comment 2 "Reviewed by Máté Kovács, ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
