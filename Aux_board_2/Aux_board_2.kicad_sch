@@ -7850,28 +7850,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "0577f16f-5cfe-4d93-8526-ee31ccd6fe45")
+			(uuid "0577f16f-5cfe-4d93-8526-ee31ccd6fe46")
 		)
 		(pin "7"
-			(uuid "9ba0d8ac-a228-4c8f-9465-5ec1431faba5")
+			(uuid "9ba0d8ac-a228-4c8f-9465-5ec1431faba6")
 		)
 		(pin "4"
-			(uuid "e88c62e6-4680-4d11-b000-17eb7827beeb")
+			(uuid "e88c62e6-4680-4d11-b000-17eb7827beec")
 		)
 		(pin "1"
-			(uuid "f8299c63-88bf-49a4-8c3e-b95d78866c73")
+			(uuid "f8299c63-88bf-49a4-8c3e-b95d78866c74")
 		)
 		(pin "8"
-			(uuid "74eaf2ea-9b7e-444e-bd26-b9f394895581")
+			(uuid "74eaf2ea-9b7e-444e-bd26-b9f394895582")
 		)
 		(pin "5"
-			(uuid "c9387699-5a16-4e4a-95d4-22377d73598c")
+			(uuid "c9387699-5a16-4e4a-95d4-22377d73598d")
 		)
 		(pin "2"
-			(uuid "8eff1c0c-b091-41cc-8940-72967a99a120")
+			(uuid "8eff1c0c-b091-41cc-8940-72967a99a121")
 		)
 		(pin "3"
-			(uuid "d63d5d7f-d53e-45c7-a1a9-a119ebb20a87")
+			(uuid "d63d5d7f-d53e-45c7-a1a9-a119ebb20a88")
 		)
 		(instances
 			(project "Aux_board_2"

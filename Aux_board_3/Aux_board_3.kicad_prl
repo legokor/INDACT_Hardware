@@ -78,6 +78,19 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Aux_board_3.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 353,
+          "pos_y": 187,
+          "size_x": 1854,
+          "size_y": 1065
+        }
+      }
+    ]
   }
 }

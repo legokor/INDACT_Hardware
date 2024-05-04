@@ -616,6 +616,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier URL",
+          "name": "Supplier URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -667,6 +679,26 @@
     [
       "aaa7ce82-fd86-4c66-99d9-b7746a947d4d",
       "Root"
+    ],
+    [
+      "8706d3f3-5555-4f61-80b0-4a68e9b28181",
+      "END-EFFECTOR"
+    ],
+    [
+      "d76ffa5d-071f-483c-87e2-1be563e02c4a",
+      "THETA AXIS"
+    ],
+    [
+      "45ad2373-937c-456a-b74a-0fbbc2b5025b",
+      "ALPHA AXIS"
+    ],
+    [
+      "0ae777dc-69de-4b1c-8d0f-2c0842370bc6",
+      "BETA AXIS"
+    ],
+    [
+      "9b68797f-5b80-4cd5-8ff8-2df58091c72e",
+      "RIGHT_ANGLE HEADERS"
     ]
   ],
   "text_variables": {}
