@@ -85,10 +85,22 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 525,
-          "pos_y": 352,
+          "pos_x": 353,
+          "pos_y": 187,
+          "size_x": 1854,
+          "size_y": 1065
+        }
+      },
+      {
+        "name": "Aux_board_3.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 353,
+          "pos_y": 236,
           "size_x": 1280,
-          "size_y": 851
+          "size_y": 630
         }
       }
     ]

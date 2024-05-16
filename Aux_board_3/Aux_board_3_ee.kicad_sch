@@ -1299,7 +1299,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "\nLow-Power Differential Line Driver and Receiver Pairs\n"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1309,7 +1318,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
+			(property "Description_1" "\nLow-Power Differential Line Driver and Receiver Pairs\n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1329,7 +1338,7 @@
 					(hide yes)
 				)
 			)
-			(property "RS_Components_1625503_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/line-interface-ics/1625503//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-1625503/?unipart_id=38825&manufacturer=Texas Instruments&part_name=SN75LBC179AD&search_term=sn75lbc179ad"
+			(property "Price" "None"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1369,17 +1378,7 @@
 					(hide yes)
 				)
 			)
-			(property "RS_Components_6609369P_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/line-interface-ics/6609369p//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-6609369P/?unipart_id=38825&manufacturer=Texas Instruments&part_name=SN75LBC179AD&search_term=sn75lbc179ad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "RS_Components_6609369_Purchase_URL" "https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/line-interface-ics/6609369//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-6609369/?unipart_id=38825&manufacturer=Texas Instruments&part_name=SN75LBC179AD&search_term=sn75lbc179ad"
+			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2196,16 +2195,16 @@
 		(uuid "44481862-ae1f-4eaf-96cb-e91b9431436c")
 	)
 	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47fc1e21-758d-4e68-b4a1-a56342b06374")
+	)
+	(junction
 		(at 88.9 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "567f7f92-14d9-4620-9c5b-95a4ebbb8ea1")
-	)
-	(junction
-		(at 138.43 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5974629f-ca3b-40f5-a387-3b45afd9eb81")
 	)
 	(junction
 		(at 134.62 44.45)
@@ -2262,10 +2261,22 @@
 		(uuid "b04c9ccb-3fe0-4043-a688-319913db9318")
 	)
 	(junction
+		(at 189.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b417b458-f2f3-4ea1-b0cd-9afb6ee06fdc")
+	)
+	(junction
 		(at 177.8 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c009c93b-5474-4c69-957a-357a20465bd7")
+	)
+	(junction
+		(at 88.9 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd7a8190-aa7c-49a8-a5e3-a743848c3933")
 	)
 	(junction
 		(at 80.01 119.38)
@@ -2273,48 +2284,9 @@
 		(color 0 0 0 0)
 		(uuid "e0c1bf1d-5a74-489e-84eb-5989e5faec62")
 	)
-	(junction
-		(at 88.9 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1c0a08a-b5f5-4ace-bd30-eed766342cc5")
-	)
-	(junction
-		(at 189.23 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb7a16f1-21d2-46a5-bdb6-469c9550b3d1")
-	)
 	(no_connect
 		(at 107.95 69.85)
 		(uuid "1ee4bc70-547d-46c3-85b8-448fb3f0180d")
-	)
-	(bus_entry
-		(at 102.87 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "007ca7e2-2861-4ce5-9d39-4347f54a66ea")
-	)
-	(bus_entry
-		(at 154.94 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f77fb26-ffd7-4eb4-b8f6-1585eefc24c9")
-	)
-	(bus_entry
-		(at 201.93 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab8ad32a-617b-481b-a582-1fe14d527e81")
 	)
 	(wire
 		(pts
@@ -2446,16 +2418,6 @@
 		)
 		(uuid "120fd5c8-da26-4aed-a0d3-03f18ea378a6")
 	)
-	(bus
-		(pts
-			(xy 204.47 142.24) (xy 208.28 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c93f6c-f9ab-4c7e-97ec-d36507ce7f1d")
-	)
 	(wire
 		(pts
 			(xy 134.62 27.94) (xy 134.62 44.45)
@@ -2488,16 +2450,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24473107-39e8-4a9c-8897-f515a3fd3fc2")
-	)
-	(wire
-		(pts
 			(xy 80.01 133.35) (xy 88.9 133.35)
 		)
 		(stroke
@@ -2518,16 +2470,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 113.03) (xy 88.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294b92ff-35ea-40fc-bf1f-be56e0b8192e")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 115.57 59.69)
 		)
 		(stroke
@@ -2545,16 +2487,6 @@
 			(type default)
 		)
 		(uuid "2a5141d1-6193-44dd-bc88-4ea6a3814621")
-	)
-	(bus
-		(pts
-			(xy 105.41 142.24) (xy 157.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3100f125-e149-4592-8782-6e3f579db8ac")
 	)
 	(wire
 		(pts
@@ -2598,6 +2530,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 113.03) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c83908-c217-45b6-b184-506033536253")
+	)
+	(wire
+		(pts
 			(xy 177.8 52.07) (xy 177.8 71.12)
 		)
 		(stroke
@@ -2605,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "39d51e29-237e-40f8-9812-6467d7e98dba")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0ee6ec-ce76-4d1d-a61e-10d648a31037")
 	)
 	(wire
 		(pts
@@ -2788,13 +2740,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 139.7) (xy 154.94 113.03)
+			(xy 138.43 113.03) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a7f549a-8b9c-4d1f-ba27-ec6b9cb65b4a")
+		(uuid "6d6fd2c8-c09c-49ef-9603-605e6265c870")
 	)
 	(wire
 		(pts
@@ -2805,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "6da11633-f070-4b87-8843-bfe09403e00a")
-	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 138.43 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6db7b7f4-8009-4c04-b84f-63326a4d8f9d")
 	)
 	(wire
 		(pts
@@ -2845,16 +2787,6 @@
 			(type default)
 		)
 		(uuid "75ec505e-dd75-4d7e-8f89-69edfb16120d")
-	)
-	(wire
-		(pts
-			(xy 189.23 113.03) (xy 189.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78fd7bd6-7d09-4025-910a-1090f3614bc5")
 	)
 	(wire
 		(pts
@@ -2946,16 +2878,6 @@
 		)
 		(uuid "9f61f657-7284-4d2d-b511-eb6fd3b74c22")
 	)
-	(bus
-		(pts
-			(xy 157.48 142.24) (xy 204.47 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a989e6aa-5f4d-4dd2-9e18-294532a0e45d")
-	)
 	(wire
 		(pts
 			(xy 177.8 71.12) (xy 171.45 71.12)
@@ -2995,6 +2917,16 @@
 			(type default)
 		)
 		(uuid "ac57da6f-08b6-4f70-b25c-bd9d7cd60c6b")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae13687e-e066-4ee9-b48b-931acb959bef")
 	)
 	(wire
 		(pts
@@ -3078,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 138.43 114.3)
+			(xy 138.43 110.49) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3095,16 +3027,6 @@
 			(type default)
 		)
 		(uuid "c2dc9203-9367-4cd7-8c3f-d3d66a25163a")
-	)
-	(wire
-		(pts
-			(xy 88.9 113.03) (xy 88.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c33ea8f8-d407-43aa-9d04-5c6cd56d9f74")
 	)
 	(wire
 		(pts
@@ -3158,16 +3080,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 139.7) (xy 201.93 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3e5998-4c52-4f57-b050-720c66cc24db")
-	)
-	(wire
-		(pts
 			(xy 88.9 133.35) (xy 88.9 134.62)
 		)
 		(stroke
@@ -3175,6 +3087,16 @@
 			(type default)
 		)
 		(uuid "ddd76724-8f3a-4641-9540-45f7ccbda139")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2483ab-a2da-40d0-888e-fbf688fa3e6e")
 	)
 	(wire
 		(pts
@@ -3195,16 +3117,6 @@
 			(type default)
 		)
 		(uuid "e52024c8-5d70-4ad3-8782-dbcd6de8e34d")
-	)
-	(wire
-		(pts
-			(xy 138.43 110.49) (xy 138.43 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64e0364-0546-4fe0-936b-9b13b535fbc7")
 	)
 	(wire
 		(pts
@@ -3278,13 +3190,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 102.87 113.03)
+			(xy 189.23 113.03) (xy 191.77 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f44b5643-0c61-4703-8a8d-fcff1c21adf0")
+		(uuid "f5f2c304-0910-4249-9c5c-e009c4e2355e")
 	)
 	(wire
 		(pts
@@ -3342,28 +3254,6 @@
 		)
 		(uuid "1888276e-05c4-4034-979a-24d378981f5e")
 	)
-	(label "SRV3_PWM"
-		(at 191.77 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30349f79-8b75-4076-8bda-aacaf69a9bb9")
-	)
-	(label "SRV2_PWM"
-		(at 144.78 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4154c68c-2f6a-4187-b242-3e26f109a7f4")
-	)
 	(label "MODBUS_TX_P"
 		(at 130.81 44.45 180)
 		(fields_autoplaced yes)
@@ -3385,17 +3275,6 @@
 			(justify left bottom)
 		)
 		(uuid "67451d5b-0093-4d01-9572-1aea1d5c2060")
-	)
-	(label "SRV1_PWM"
-		(at 92.71 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e61532c-8b43-4938-981b-ef78d7f096ed")
 	)
 	(label "SRV1_PWM_24"
 		(at 64.77 119.38 0)
@@ -3529,9 +3408,9 @@
 		)
 		(uuid "fedacfd9-bfeb-434e-82e5-d812513766ee")
 	)
-	(hierarchical_label "SERVOS"
+	(hierarchical_label "SRV3_PWM"
 		(shape output)
-		(at 208.28 142.24 0)
+		(at 191.77 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3539,7 +3418,31 @@
 			)
 			(justify left)
 		)
-		(uuid "1d78e625-946e-47e2-bc10-e53b376725f3")
+		(uuid "0925f856-d888-43cb-8b74-d87eabe65732")
+	)
+	(hierarchical_label "SRV1_PWM"
+		(shape output)
+		(at 91.44 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43d21fa6-48e6-44fd-9cbb-21ee726c9ea4")
+	)
+	(hierarchical_label "SRV2_PWM"
+		(shape output)
+		(at 140.97 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "917f3897-235e-430f-8b61-acc9ec67d489")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3615,6 +3518,15 @@
 			)
 		)
 		(property "Sourced" "1"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -3720,6 +3632,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a98ac678-412f-4bd1-812b-f3762335f6c1")
 		)
@@ -3809,6 +3730,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-76"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -3980,6 +3910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 189.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9221f440-a874-4581-830e-5c8235d14cc3")
 		)
@@ -4088,6 +4027,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "033b4f33-d0e7-4b80-8919-145b137f787a")
 		)
@@ -4188,6 +4136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f892303a-073a-4d94-93cb-7a74b78440c3")
 		)
@@ -4277,6 +4234,15 @@
 			)
 		)
 		(property "Supplier item no" "81-10-76"
+			(at 143.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -4448,6 +4414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0f976e7-1c99-4280-8e61-7a85ecf0471d")
 		)
@@ -4537,6 +4512,15 @@
 			)
 		)
 		(property "Sourced" "1"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -4643,6 +4627,15 @@
 			)
 		)
 		(property "Sourced" "-"
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -4877,6 +4870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7568802a-a077-4068-86d8-cb4d14831953")
 		)
@@ -4966,6 +4968,15 @@
 			)
 		)
 		(property "Sourced" "1"
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -5116,6 +5127,139 @@
 			(project "Aux_board_3"
 				(path "/aaa7ce82-fd86-4c66-99d9-b7746a947d4d/8706d3f3-5555-4f61-80b0-4a68e9b28181"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SN75LBC179AD:SN75LBC179AD")
+		(at 153.67 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6b8f17-1bed-4e75-8cd6-8f3360ed826f")
+		(property "Reference" "U3"
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN75LBC179AD"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SN75LBC179AD:SOIC127P599X175-8N"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/sn65lbc179a"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Differential RS-485 serial line transceiver, SOIC-8"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourced" "1"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "296-41653-1-ND"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d9fa3c7-7043-4d17-a09b-4d72fce200c0")
+		)
+		(pin "2"
+			(uuid "6b7e3c97-6beb-4d94-afdf-7f4fd4f2d86a")
+		)
+		(pin "1"
+			(uuid "737f7727-8348-4ced-9c56-9fa6552cda37")
+		)
+		(pin "4"
+			(uuid "a45bb4f2-34be-4ca4-9d66-e8082a22f1c3")
+		)
+		(pin "7"
+			(uuid "7154be1c-d7b5-47cd-84aa-3b0ba1d1406e")
+		)
+		(pin "6"
+			(uuid "1a24d225-efb4-44c5-aff7-9192b8e2b29a")
+		)
+		(pin "8"
+			(uuid "fb185e7c-7b69-48de-8d45-6c153db4f0ed")
+		)
+		(pin "5"
+			(uuid "e7d6a198-cd72-48de-b27d-b13a36dabd7c")
+		)
+		(instances
+			(project "Aux_board_3"
+				(path "/aaa7ce82-fd86-4c66-99d9-b7746a947d4d/8706d3f3-5555-4f61-80b0-4a68e9b28181"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5335,6 +5479,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e432d6fb-a28c-45ad-843f-17be7d0281e6")
 		)
@@ -5411,130 +5564,6 @@
 			(project "Aux_board_3"
 				(path "/aaa7ce82-fd86-4c66-99d9-b7746a947d4d/8706d3f3-5555-4f61-80b0-4a68e9b28181"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN75LBC179AD:SN75LBC179AD")
-		(at 153.67 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2f21852-2785-4caa-a7ee-32a9a0d5e0df")
-		(property "Reference" "U3"
-			(at 153.67 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN75LBC179AD"
-			(at 153.67 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SN75LBC179AD:SOIC127P599X175-8N"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65lbc179a"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nLow-Power Differential Line Driver and Receiver Pairs\n"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Sourced" "1"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier item no" "296-41653-1-ND"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b68ee66-178e-4514-adc2-b4c2b884da96")
-		)
-		(pin "2"
-			(uuid "3d781b31-2d7b-43e4-b7ba-082716a5b7bf")
-		)
-		(pin "3"
-			(uuid "f69dc361-0619-4c43-bed7-c6a8f374fb59")
-		)
-		(pin "4"
-			(uuid "d9b566bb-adee-4acd-a233-f2f34bba40c7")
-		)
-		(pin "5"
-			(uuid "98ad17b0-c77a-4c1c-afa7-c4ba64c0d3cc")
-		)
-		(pin "6"
-			(uuid "4dbd0322-8437-4060-9624-09a43d04fa95")
-		)
-		(pin "7"
-			(uuid "3eff0b54-c673-42e4-b03c-df2d438218b9")
-		)
-		(pin "8"
-			(uuid "204c689d-34e8-4444-9880-9565b64b4ef8")
-		)
-		(instances
-			(project "Aux_board_3"
-				(path "/aaa7ce82-fd86-4c66-99d9-b7746a947d4d/8706d3f3-5555-4f61-80b0-4a68e9b28181"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5687,6 +5716,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "68d60613-ea74-4ecf-915d-1a00d01885c7")
 		)
@@ -5817,6 +5855,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfff7304-6a8c-480c-a2a0-2900d0152da5")
 		)
@@ -5912,6 +5959,15 @@
 			)
 		)
 		(property "Sourced" "0"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -6094,6 +6150,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f37042a0-2a65-4481-88a3-956b931b5252")
 		)
@@ -6203,6 +6268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "109ae2e4-9e66-4e49-9d70-43cade85458d")
 		)
@@ -6247,7 +6321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal"
 			(at 196.85 80.01 0)
 			(effects
 				(font
@@ -6266,6 +6340,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LEGOlab"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier item no" "-"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 196.85 80.01 0)
 			(effects
 				(font
@@ -6380,6 +6481,15 @@
 			)
 		)
 		(property "Sourced" "1"
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 186.69 119.38 0)
 			(effects
 				(font

@@ -628,6 +628,12 @@
           "label": "Package",
           "name": "Package",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
         }
       ],
       "filter_string": "",
