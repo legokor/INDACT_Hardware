@@ -509,7 +509,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "+*V*"
+        "pattern": "+*V"
       },
       {
         "netclass": "GND",
@@ -518,6 +518,14 @@
       {
         "netclass": "Power",
         "pattern": "*_PWR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+5VS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
       }
     ]
   },

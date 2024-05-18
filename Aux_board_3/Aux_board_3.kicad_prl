@@ -80,18 +80,6 @@
   "project": {
     "files": [
       {
-        "name": "Aux_board_3.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 353,
-          "pos_y": 187,
-          "size_x": 1854,
-          "size_y": 1065
-        }
-      },
-      {
         "name": "Aux_board_3.kicad_pcb",
         "open": false,
         "window": {
@@ -101,6 +89,18 @@
           "pos_y": 236,
           "size_x": 1280,
           "size_y": 630
+        }
+      },
+      {
+        "name": "Aux_board_3.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2139,
+          "pos_y": -8,
+          "size_x": 1236,
+          "size_y": 694
         }
       }
     ]

@@ -12256,6 +12256,166 @@
 				(justify left top)
 			)
 		)
+		(pin "TH_ENC_A" output
+			(at 200.66 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c579c5c3-f7dd-46f0-8681-77628a29454b")
+		)
+		(pin "TH_ENC_B" output
+			(at 200.66 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c1cda17-0650-43a6-b24b-307289aa9f2f")
+		)
+		(pin "TH_LIM_MAX_IN" input
+			(at 200.66 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd2e2de0-77ac-4b1c-9b06-05f5da92df0d")
+		)
+		(pin "TH_LIM_MIN_IN" input
+			(at 200.66 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9e22c3a-dea3-4ffe-9651-e9f1bae778c6")
+		)
+		(pin "TH_ENC_B_IN" input
+			(at 200.66 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6fa505c-8eab-4403-9726-a0e82f5def77")
+		)
+		(pin "TH_ENC_A_IN" input
+			(at 200.66 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ccc1318-f68a-41be-90f1-40f05c8f96d3")
+		)
+		(pin "R_HOME_IN" input
+			(at 200.66 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc270aad-72ff-45a9-be19-ee8c02f4e8cf")
+		)
+		(pin "R_LIM_MIN" output
+			(at 200.66 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8328921d-3f93-4dde-aa3b-e2598c21e598")
+		)
+		(pin "R_LIM_MAX_IN" input
+			(at 200.66 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "082fdf4e-6f21-4027-9965-8bdc352621bc")
+		)
+		(pin "R_LIM_MIN_IN" input
+			(at 200.66 21.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65230c07-9d64-4e65-9ff3-73349e837b3c")
+		)
+		(pin "R_HOME" output
+			(at 200.66 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bfc747f-d5ac-4c24-893a-4e000daf76a6")
+		)
+		(pin "R_LIM_MAX" output
+			(at 200.66 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2055a3db-a0ff-4dbe-9671-74d645125e1c")
+		)
+		(pin "TH_LIM_MAX" output
+			(at 200.66 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15c1177d-f9d5-4c2e-9ebe-e05794e833ae")
+		)
+		(pin "TH_LIM_MIN" output
+			(at 200.66 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7198024-a71a-4674-b939-925c9172ad97")
+		)
+		(pin "TH_HOME_IN" input
+			(at 200.66 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a72ec9b2-85b6-4fed-8a76-024b7d9673c5")
+		)
+		(pin "TH_HOME" output
+			(at 200.66 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37d12d14-7b93-4ed2-a42c-6df7bdb2dc70")
+		)
 		(instances
 			(project "Aux_board_3"
 				(path "/aaa7ce82-fd86-4c66-99d9-b7746a947d4d"
@@ -12292,6 +12452,166 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "ALF_LIM_MAX_IN" input
+			(at 200.66 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32a2b7b0-3501-4462-8ecb-bf67c5ce82df")
+		)
+		(pin "ALF_LIM_MIN" output
+			(at 200.66 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59d9feb8-8ea5-45ab-86b9-5ea5bc72fbe6")
+		)
+		(pin "BET_ENC_B" output
+			(at 200.66 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d8ed92f-68e0-4133-a828-0d2d68a28c3a")
+		)
+		(pin "BET_LIM_MIN_IN" input
+			(at 200.66 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b312d90-6fb4-43f8-b923-5a2f42f37aba")
+		)
+		(pin "BET_ENC_A_IN" input
+			(at 200.66 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cd328eb-f1fc-4d1f-9488-e77e643e7421")
+		)
+		(pin "ALF_ENC_A_IN" input
+			(at 200.66 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9c2f835-ebe1-4a2e-afc2-4f8495833704")
+		)
+		(pin "ALF_LIM_MAX" output
+			(at 200.66 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "116cb85b-1a37-4a09-9c6b-ab6a04deaddd")
+		)
+		(pin "BET_LIM_MAX" output
+			(at 200.66 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9eb220a8-da73-4614-9f36-44fa2cb5f0dc")
+		)
+		(pin "BET_ENC_A" output
+			(at 200.66 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47e28523-e4c7-4436-83c5-0e3b023581b3")
+		)
+		(pin "BET_ENC_B_IN" input
+			(at 200.66 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c76c196-d180-4698-b80b-3d9a7dde0afa")
+		)
+		(pin "ALF_ENC_B" output
+			(at 200.66 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ecde36a-8844-4d56-8074-086af7a2e739")
+		)
+		(pin "ALF_LIM_MIN_IN" input
+			(at 200.66 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2fed15a2-d801-4684-bf64-2a3114c10fd3")
+		)
+		(pin "ALF_ENC_A" output
+			(at 200.66 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a002256-273b-4751-a745-65e0448b047b")
+		)
+		(pin "ALF_ENC_B_IN" input
+			(at 200.66 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18a5b401-e93e-4c5f-81ce-eaaa92b18c02")
+		)
+		(pin "BET_LIM_MIN" output
+			(at 200.66 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "860621e3-2287-45bf-8bf2-a7413c5d31f5")
+		)
+		(pin "BET_LIM_MAX_IN" input
+			(at 200.66 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98b42c62-ba33-4ad4-b0cc-ae6105238e20")
 		)
 		(instances
 			(project "Aux_board_3"
