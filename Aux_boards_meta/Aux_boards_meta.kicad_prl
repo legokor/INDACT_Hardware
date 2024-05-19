@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,21 +74,33 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Aux_board_1.kicad_prl",
+    "filename": "Aux_boards_meta.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Aux_board_1.kicad_pro",
+        "name": "Aux_boards_meta.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 525,
+          "pos_y": 352,
+          "size_x": 1280,
+          "size_y": 851
+        }
+      },
+      {
+        "name": "Aux_boards_meta.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 536,
-          "pos_y": 511,
-          "size_x": 1263,
-          "size_y": 600
+          "maximized": true,
+          "pos_x": 525,
+          "pos_y": 421,
+          "size_x": 1280,
+          "size_y": 634
         }
       }
     ]

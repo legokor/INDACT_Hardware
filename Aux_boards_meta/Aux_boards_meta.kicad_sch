@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1a58b99a-90fe-4598-8f3b-1f732cc63393")
+	(paper "A4")
+	(title_block
+		(title "Karcsi (INDACT Robot Arm) - useful bits for Aux boards")
+		(date "2024-05-19")
+		(rev "1.1")
+		(company "LEGO Kör (legokor.hu)")
+		(comment 1 "Designed by Máté Kovács, Panka Horváth, Gergely Halász")
+		(comment 2 "Reviewed by Máté Kovács, Andi Serban, Péter Varga")
+	)
+	(lib_symbols)
+	(sheet
+		(at 27.94 44.45)
+		(size 69.85 19.05)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3131544d-0210-44f3-a456-1d3de3127634")
+		(property "Sheetname" "AUXBOARD POWER"
+			(at 63.246 53.086 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "auxboards_power.kicad_sch"
+			(at 48.006 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC_PWR" output
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9103126b-674f-418e-8f16-bedba2cdcd63")
+		)
+		(pin "HOM_PWR" output
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4bdb588-ef33-4db1-9d0d-1fe61a2c62d3")
+		)
+		(pin "LIM_PWR" output
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fbae7b6-a498-4ae4-83df-0c26ed007bc0")
+		)
+		(instances
+			(project "Aux_boards_meta"
+				(path "/1a58b99a-90fe-4598-8f3b-1f732cc63393"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 77.47)
+		(size 69.85 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8772987c-3417-4e26-b14e-fb28636ee023")
+		(property "Sheetname" "SIMPLE LEVEL SHIFTER"
+			(at 61.468 83.566 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "auxboards_levelshift.kicad_sch"
+			(at 45.466 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 27.94 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bad16da1-167e-4db6-b5fe-b6b77d85594a")
+		)
+		(pin "OUT" output
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1cfd4a5-597c-4e0d-95ce-bfa1be4361fa")
+		)
+		(instances
+			(project "Aux_boards_meta"
+				(path "/1a58b99a-90fe-4598-8f3b-1f732cc63393"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
