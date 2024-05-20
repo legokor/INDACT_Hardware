@@ -81,14 +81,14 @@
     "files": [
       {
         "name": "Aux_boards_meta.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 525,
           "pos_y": 352,
-          "size_x": 1280,
-          "size_y": 851
+          "size_x": 1277,
+          "size_y": 849
         }
       },
       {
