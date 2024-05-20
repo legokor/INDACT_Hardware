@@ -1,44 +1,38 @@
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'linux'
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.2
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x769818067640>
-05-19 20:38:23 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'R91'
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on /run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/Aux_boards_meta/Aux_boards_meta.kicad_pcb
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: /tmp/temp_board_file_for_save.kicad_pcb
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: /tmp/temp_board_file_for_save.kicad_pcb
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with ['auxboards_levelshift.kicad_sch']
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
-05-19 20:38:25 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:32 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
-05-19 20:38:32 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
-05-19 20:38:32 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:34 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
-05-19 20:38:34 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
-05-19 20:38:34 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
-05-19 20:38:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
-05-19 20:38:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 256:Saving the layout in '/run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/Aux_boards_meta/auxboards_levelshift.pckl' for level 0
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 483:Saving layout for level: ['SIMPLE LEVEL SHIFTER']
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 484:Calculating hash of the layout schematics
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 488:Saving hash for files: ['auxboards_levelshift.kicad_sch']
-05-19 20:38:47 root 499:Source footprints are: ['R92', 'Q91', 'R93', 'Q92', 'R91']
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 510:Removing everything else from the layout
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 585:Removing text
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 560:Removing drawing
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 606:Removing zones
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 627:Removing tracks
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 629:Bounding box points: (131855000, 135745000, 225725000, 244675000)
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 652:Removing footprints
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 528:Saving layout in temporary file
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 532:Reading layout as text
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 539:Saving layout data
-05-19 20:38:47 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 557:Successfully saved the layout
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'linux'
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.2
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x71aa949f53f0>
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'U1'
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on /run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/Aux_boards_meta/Aux_boards_meta.kicad_pcb
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
+05-20 10:37:06 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: /tmp/temp_board_file_for_save.kicad_pcb
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: /tmp/temp_board_file_for_save.kicad_pcb
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with ['auxboards_power.kicad_sch']
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with ['AUXBOARD POWER']
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
+05-20 10:37:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['AUXBOARD POWER']
+05-20 10:37:08 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+05-20 10:37:08 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection 0
+05-20 10:37:08 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available ['AUXBOARD POWER']
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 256:Saving the layout in '/run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/Aux_boards_meta/uxboards_power.pckl' for level 0
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 483:Saving layout for level: ['AUXBOARD POWER']
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 484:Calculating hash of the layout schematics
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 488:Saving hash for files: ['auxboards_power.kicad_sch']
+05-20 10:37:10 root 499:Source footprints are: ['C3', 'C4', 'J24', 'J22', 'R1', 'D2', 'R3', 'D3', 'C1', 'D1', 'J21', 'C2', 'J23', 'U1', 'R2', 'U2']
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 510:Removing everything else from the layout
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 585:Removing text
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 560:Removing drawing
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 606:Removing zones
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 627:Removing tracks
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 629:Bounding box points: (104980000, 127610000, 124890000, 169865000)
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 652:Removing footprints
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 528:Saving layout in temporary file
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 532:Reading layout as text
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 539:Saving layout data
+05-20 10:37:10 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 557:Successfully saved the layout

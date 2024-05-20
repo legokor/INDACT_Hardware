@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "SFH6345")(type "KiCad")(uri "/run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/SFH6345.kicad_sym")(options "")(descr ""))
-  (lib (name "power_modules")(type "KiCad")(uri "/run/media/koma111/User-Files/Hardver/INDACT_Hardware_aux/power_modules.kicad_sym")(options "")(descr ""))
-)
