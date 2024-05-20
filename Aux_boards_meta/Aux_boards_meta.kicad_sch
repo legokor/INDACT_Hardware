@@ -33,8 +33,8 @@
 				)
 			)
 		)
-		(property "Sheetfile" "auxboards_power.kicad_sch"
-			(at 48.006 56.388 0)
+		(property "Sheetfile" "../Aux_boards_meta/auxboards_power.kicad_sch"
+			(at 38.354 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,8 +100,8 @@
 				)
 			)
 		)
-		(property "Sheetfile" "auxboards_levelshift.kicad_sch"
-			(at 45.466 87.376 0)
+		(property "Sheetfile" "../Aux_boards_meta/auxboards_levelshift.kicad_sch"
+			(at 35.052 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
