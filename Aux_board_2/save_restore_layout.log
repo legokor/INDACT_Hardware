@@ -1,0 +1,67 @@
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'linux'
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.2
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x71b6b0bad3f0>
+05-21 00:51:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'U1'
+05-21 00:51:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 280:Restore layout chosen
+05-21 00:51:09 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 75:Initialization start
+05-21 00:51:09 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 77:Initialization done Group name:
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 788:Getting board info
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 791:Get project schematics and layout data
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 805:Loading saved design
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 830:Source level is:['auxboards_power.kicad_sch']
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 835:Destination footprint is:'U1'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 836:Destination levels available are:['auxboards_power.kicad_sch']
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 847:Destination level is:['auxboards_power.kicad_sch']
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 852:All sch files required are: ['auxboards_power.kicad_sch']
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 854:Getting current schematics hash
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 865:Source hash is:'0b8ab9740f7f96f4a3ab8958f57c0956'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 866:Destination hash is: '0b8ab9740f7f96f4a3ab8958f57c0956'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 883:Get layout data from saved board
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1056:Replicating footprints
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1207:Replicating tracks
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1220:Net pairs are: [('+5V', '+5V'), ('unconnected-(J23-Pin_5-Pad5)', 'unconnected-(J23-Pin_5-Pad5)'), ('+3V3', '+3V3'), ('unconnected-(J24-Pin_5-Pad5)', 'unconnected-(J24-Pin_5-Pad5)'), ('GND', 'GND'), ('unconnected-(J22-Pin_5-Pad5)', 'unconnected-(J22-Pin_5-Pad5)'), ('/AUXBOARD POWER/HOM_PWR', '/HOM_PWR'), ('unconnected-(J22-Pin_1-Pad1)', 'unconnected-(J22-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED24_A', '/AUX BOARD 2 POWER/LED24_A'), ('unconnected-(J24-Pin_1-Pad1)', 'unconnected-(J24-Pin_1-Pad1)'), ('+24V', '+24V'), ('unconnected-(J23-Pin_1-Pad1)', 'unconnected-(J23-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED33_A', '/AUX BOARD 2 POWER/LED33_A'), ('/AUXBOARD POWER/LIM_PWR', '/LIM_PWR'), ('/AUXBOARD POWER/ENC_PWR', '/ENC_PWR'), ('/AUXBOARD POWER/LED5_A', '/AUX BOARD 2 POWER/LED5_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1261:Replicating zones
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1274:Net pairs are: [('+5V', '+5V'), ('unconnected-(J23-Pin_5-Pad5)', 'unconnected-(J23-Pin_5-Pad5)'), ('+3V3', '+3V3'), ('unconnected-(J24-Pin_5-Pad5)', 'unconnected-(J24-Pin_5-Pad5)'), ('GND', 'GND'), ('unconnected-(J22-Pin_5-Pad5)', 'unconnected-(J22-Pin_5-Pad5)'), ('/AUXBOARD POWER/HOM_PWR', '/HOM_PWR'), ('unconnected-(J22-Pin_1-Pad1)', 'unconnected-(J22-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED24_A', '/AUX BOARD 2 POWER/LED24_A'), ('unconnected-(J24-Pin_1-Pad1)', 'unconnected-(J24-Pin_1-Pad1)'), ('+24V', '+24V'), ('unconnected-(J23-Pin_1-Pad1)', 'unconnected-(J23-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED33_A', '/AUX BOARD 2 POWER/LED33_A'), ('/AUXBOARD POWER/LIM_PWR', '/LIM_PWR'), ('/AUXBOARD POWER/ENC_PWR', '/ENC_PWR'), ('/AUXBOARD POWER/LED5_A', '/AUX BOARD 2 POWER/LED5_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED24_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED24_A', '/AUX BOARD 2 POWER/LED24_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED33_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED33_A', '/AUX BOARD 2 POWER/LED33_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED5_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED5_A', '/AUX BOARD 2 POWER/LED5_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED5_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED5_A', '/AUX BOARD 2 POWER/LED5_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+24V'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+24V', '+24V')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED33_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED33_A', '/AUX BOARD 2 POWER/LED33_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+3V3'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+3V3', '+3V3')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+5V'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+5V', '+5V')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LED24_A'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LED24_A', '/AUX BOARD 2 POWER/LED24_A')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: 'GND'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('GND', 'GND')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: 'GND'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('GND', 'GND')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/ENC_PWR'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/ENC_PWR', '/ENC_PWR')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/HOM_PWR'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/HOM_PWR', '/HOM_PWR')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '/AUXBOARD POWER/LIM_PWR'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('/AUXBOARD POWER/LIM_PWR', '/LIM_PWR')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+3V3'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+3V3', '+3V3')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+3V3'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+3V3', '+3V3')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+3V3'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+3V3', '+3V3')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1282:Handlilng zone connected to: '+3V3'
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1290:Zone list of net tuples: [('+3V3', '+3V3')]
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1339:Replicating text
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1374:Replicating drawings
+05-21 00:51:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1387:Net pairs are: [('+5V', '+5V'), ('unconnected-(J23-Pin_5-Pad5)', 'unconnected-(J23-Pin_5-Pad5)'), ('+3V3', '+3V3'), ('unconnected-(J24-Pin_5-Pad5)', 'unconnected-(J24-Pin_5-Pad5)'), ('GND', 'GND'), ('unconnected-(J22-Pin_5-Pad5)', 'unconnected-(J22-Pin_5-Pad5)'), ('/AUXBOARD POWER/HOM_PWR', '/HOM_PWR'), ('unconnected-(J22-Pin_1-Pad1)', 'unconnected-(J22-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED24_A', '/AUX BOARD 2 POWER/LED24_A'), ('unconnected-(J24-Pin_1-Pad1)', 'unconnected-(J24-Pin_1-Pad1)'), ('+24V', '+24V'), ('unconnected-(J23-Pin_1-Pad1)', 'unconnected-(J23-Pin_1-Pad1)'), ('/AUXBOARD POWER/LED33_A', '/AUX BOARD 2 POWER/LED33_A'), ('/AUXBOARD POWER/LIM_PWR', '/LIM_PWR'), ('/AUXBOARD POWER/ENC_PWR', '/ENC_PWR'), ('/AUXBOARD POWER/LED5_A', '/AUX BOARD 2 POWER/LED5_A')]
