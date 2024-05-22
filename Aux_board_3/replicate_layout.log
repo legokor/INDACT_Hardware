@@ -1,0 +1,732 @@
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.9 (main, Nov 10 2011, 15:00:00) [GCC 13.2.0]'
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.2
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7143251f53f0>
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R34 as a reference
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R34'
+Located on: ['TH_LIM_CLW LEVEL SHIFTER']
+With filenames: ['auxboards_levelshift.kicad_sch']
+With sheet_id:['TH_LIM_CLW LEVEL SHIFTER']
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('R49', ['R_HOME LEVEL SHIFTER']), ('R46', ['R_LIM_MAX LEVEL SHIFTER']), ('R43', ['R_LIM_MIN LEVEL SHIFTER']), ('R40', ['TH_HOME LEVEL SHIFTER']), ('R37', ['TH_LIM_CCW LEVEL SHIFTER']), ('R34', ['TH_LIM_CLW LEVEL SHIFTER']), ('R31', ['TH_ENC_B LEVEL SHIFTER']), ('R28', ['TH_ENC_A LEVEL SHIFTER']), ('R25', ['BET_LIM_MAX LEVEL SHIFTER']), ('R22', ['BET_LIM_MIN LEVEL SHIFTER']), ('R19', ['BET_ENC_B LEVEL SHIFTER']), ('R16', ['BET_ENC_A LEVEL SHIFTER']), ('R13', ['ALF_ENC_A LEVEL SHIFTER']), ('R10', ['ALF_ENC_B LEVEL SHIFTER']), ('R7', ['ALF_LIM_MIN LEVEL SHIFTER']), ('R4', ['ALF_LIM_MAX LEVEL SHIFTER'])]
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TH_LIM_CLW LEVEL SHIFTER', file:'auxboards_levelshift.kicad_sch'
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ALF_ENC_A LEVEL SHIFTER'], ['ALF_ENC_B LEVEL SHIFTER'], ['ALF_LIM_MAX LEVEL SHIFTER'], ['ALF_LIM_MIN LEVEL SHIFTER'], ['BET_ENC_A LEVEL SHIFTER'], ['BET_ENC_B LEVEL SHIFTER'], ['BET_LIM_MAX LEVEL SHIFTER'], ['BET_LIM_MIN LEVEL SHIFTER'], ['R_HOME LEVEL SHIFTER'], ['R_LIM_MAX LEVEL SHIFTER'], ['R_LIM_MIN LEVEL SHIFTER'], ['TH_ENC_A LEVEL SHIFTER'], ['TH_ENC_B LEVEL SHIFTER'], ['TH_HOME LEVEL SHIFTER'], ['TH_LIM_CCW LEVEL SHIFTER']]
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['TH_LIM_CLW LEVEL SHIFTER']
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1770, 127)
+05-21 19:28:39 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1331, 127)
+05-21 19:29:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TH_LIM_CLW LEVEL SHIFTER', file:'auxboards_levelshift.kicad_sch'
+05-21 19:29:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ALF_ENC_A LEVEL SHIFTER'], ['ALF_ENC_B LEVEL SHIFTER'], ['ALF_LIM_MAX LEVEL SHIFTER'], ['ALF_LIM_MIN LEVEL SHIFTER'], ['BET_ENC_A LEVEL SHIFTER'], ['BET_ENC_B LEVEL SHIFTER'], ['BET_LIM_MAX LEVEL SHIFTER'], ['BET_LIM_MIN LEVEL SHIFTER'], ['R_HOME LEVEL SHIFTER'], ['R_LIM_MAX LEVEL SHIFTER'], ['R_LIM_MIN LEVEL SHIFTER'], ['TH_ENC_A LEVEL SHIFTER'], ['TH_ENC_B LEVEL SHIFTER'], ['TH_HOME LEVEL SHIFTER'], ['TH_LIM_CCW LEVEL SHIFTER']]
+05-21 19:29:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['TH_LIM_CLW LEVEL SHIFTER']
+05-21 19:29:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-21 19:29:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TH_LIM_CLW LEVEL SHIFTER', file:'auxboards_levelshift.kicad_sch'
+05-21 19:29:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ALF_ENC_A LEVEL SHIFTER'], ['ALF_ENC_B LEVEL SHIFTER'], ['ALF_LIM_MAX LEVEL SHIFTER'], ['ALF_LIM_MIN LEVEL SHIFTER'], ['BET_ENC_A LEVEL SHIFTER'], ['BET_ENC_B LEVEL SHIFTER'], ['BET_LIM_MAX LEVEL SHIFTER'], ['BET_LIM_MIN LEVEL SHIFTER'], ['R_HOME LEVEL SHIFTER'], ['R_LIM_MAX LEVEL SHIFTER'], ['R_LIM_MIN LEVEL SHIFTER'], ['TH_ENC_A LEVEL SHIFTER'], ['TH_ENC_B LEVEL SHIFTER'], ['TH_HOME LEVEL SHIFTER'], ['TH_LIM_CCW LEVEL SHIFTER']]
+05-21 19:29:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['TH_LIM_CLW LEVEL SHIFTER']
+05-21 19:29:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-21 19:29:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'TH_LIM_CLW LEVEL SHIFTER', file:'auxboards_levelshift.kicad_sch'
+05-21 19:29:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['ALF_ENC_A LEVEL SHIFTER'], ['ALF_ENC_B LEVEL SHIFTER'], ['ALF_LIM_MAX LEVEL SHIFTER'], ['ALF_LIM_MIN LEVEL SHIFTER'], ['BET_ENC_A LEVEL SHIFTER'], ['BET_ENC_B LEVEL SHIFTER'], ['BET_LIM_MAX LEVEL SHIFTER'], ['BET_LIM_MIN LEVEL SHIFTER'], ['R_HOME LEVEL SHIFTER'], ['R_LIM_MAX LEVEL SHIFTER'], ['R_LIM_MIN LEVEL SHIFTER'], ['TH_ENC_A LEVEL SHIFTER'], ['TH_ENC_B LEVEL SHIFTER'], ['TH_HOME LEVEL SHIFTER'], ['TH_LIM_CCW LEVEL SHIFTER']]
+05-21 19:29:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-21 19:29:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['ALF_ENC_A LEVEL SHIFTER'], ['ALF_ENC_B LEVEL SHIFTER'], ['ALF_LIM_MAX LEVEL SHIFTER'], ['ALF_LIM_MIN LEVEL SHIFTER'], ['BET_ENC_A LEVEL SHIFTER'], ['BET_ENC_B LEVEL SHIFTER'], ['BET_LIM_MAX LEVEL SHIFTER'], ['BET_LIM_MIN LEVEL SHIFTER'], ['R_HOME LEVEL SHIFTER'], ['R_LIM_MAX LEVEL SHIFTER'], ['R_LIM_MIN LEVEL SHIFTER'], ['TH_ENC_A LEVEL SHIFTER'], ['TH_ENC_B LEVEL SHIFTER'], ['TH_HOME LEVEL SHIFTER'], ['TH_LIM_CCW LEVEL SHIFTER']]
+on level: ['TH_LIM_CLW LEVEL SHIFTER']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
+05-21 19:29:31 root 332:updating GUI message: 'Preparing for replication'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+05-21 19:29:32 root 337:updating GUI with: 0
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+05-21 19:29:32 root 332:updating GUI message: 'Replicating footprints'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 861:Replicating footprints
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['ALF_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:13ef73ae-95cf-4632-be51-c7d02bddb99b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6ff31595-ee0e-48cc-b69e-5b629b79fdf7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c9d886ed-1090-4556-a75e-1c57bcce67ed
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c89aa61b-5c85-4039-a63c-00e05bee0211
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:004e9423-1ba6-4637-9981-45fd8e76a29f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2c4f5f1f-4abd-468f-a767-fcbf7fc905b5
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:29b27c1e-bfd8-4d50-8b80-f8e1b507ebf4
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92298f16-e6ac-4c5e-bbd2-f65e57f79978
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:db44ba72-94bc-4b59-8be1-979f1a2a418e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:653c2a30-8ab9-45ae-833e-34e7c8180936
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e933e81f-9947-4305-a778-1cdee56bd202
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d969e2af-ba9d-4bda-8d49-dfe9105d935c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f46c3516-6c98-4f4c-9f8b-5ddd69b17461
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4f4ec1c8-8b8a-46a3-a882-28e8f4c65128
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d9d87f8e-4562-485f-8bd6-79b47aa7698f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['ALF_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:42ddc1fc-1b1c-4795-93c6-e95e0e3eb230
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d8683177-0dcd-4025-941b-bd70bb6824cd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:527dd35a-3dfe-4ec5-8917-b5eaaab2d8a8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:05bc09d3-944c-442b-b0de-fb1d05d1f939
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:dfdc0685-ed0e-435f-8044-9a75d6b3533c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2d0b0a2d-b0e9-48fd-9dc9-2f63a334d11b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ab5fb59e-cf18-43ff-8e6e-4b453fba26f7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6c64de39-bdaa-42c0-919c-d935cf9e0a33
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a7814d8a-ced5-4467-bd2a-9323c81435d0
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a433dabb-c1da-491f-af3b-6549c5f57841
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:75a21466-3eac-425c-abd1-07d58ac54483
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cde60c2a-1717-488e-b7a7-d8342c583052
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ce44556c-4a49-416c-b786-4bf9dc0cf32f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b6b6814e-bc14-43d4-bca1-a78d5bd10da1
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0947b12b-3bd9-49b9-ab8f-f01b9267d64a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['ALF_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:39d3803f-4b46-4afc-a77d-627f13212dd4
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3cbe295f-9bc9-4063-93f1-703dfa2cf201
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6921c866-690d-4bb9-9e55-ca91185d389a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:33b9d4a8-a278-4b6f-b576-a04766353a6a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6a2bad64-d7b1-4f69-bec8-a15f92da5369
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f958ea3a-42e4-4e3a-b86e-63b41781018f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4a83150a-c38b-40d5-9a63-e1313da62f92
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:32f5d0cd-beac-4914-a36d-0d9f376e6712
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0534db12-4dd5-481b-8b40-58427c5061ba
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:29ee6604-75fc-4864-b881-ce37dc9706a4
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:28276a8e-66b9-48e7-9704-62c87301fc33
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:250f4b10-f8ca-4a21-889b-b14fcf8eb73c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:735df312-6a21-4ecc-aa79-be8142dee53a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:678cce36-52d0-4b2b-a5ce-cc5cbde5a108
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3f27a2cf-4dd9-447b-9394-2b7ac436aaaf
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['ALF_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:47ad6e00-f6df-4155-8fa9-2f7a6fa1dc75
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2ddaafb1-89f4-4469-93f1-ba0945bf5446
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e308a3f6-a9d7-408c-908d-4ea22b1e9844
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b7e0769f-0ce7-48e2-bb2f-2e96535e347f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4896d211-594b-4140-8cda-14581b814795
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4d308b73-e26e-47da-846e-af79df1ee1f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2f49d4be-186f-4a81-a26f-b19d2740b5b9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2a1fd193-efa3-4a8a-8559-63acc522139a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b3ea391d-85ff-4b6c-9c99-4ada6814ec72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:078e8b3a-f94e-4a91-bf32-639bf542a259
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:73b7fa0f-d7cd-4e56-b011-aaa0db0db6cd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:37893b5f-52ac-40b1-9f0f-1afa8622daad
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:eab71713-eb58-464e-96a5-dd3d75dde4da
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9030b67f-13c6-48cf-92af-8c5c753eabbf
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:622f32d8-c588-414c-a862-35bef430edf4
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['BET_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b81ce411-9c46-45e2-a3ad-381401ebf595
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8d4f700c-7ad3-4cea-9973-188b14f36acd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6f4d7250-b337-438a-977e-acf3abddebbb
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e550b400-23b5-4c79-bfa0-4173518cb1a8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:46014df5-b49b-4fc0-9618-388d599caeab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f55125e5-e5c8-42af-ad30-03bf8f69028a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e1a29559-a5d3-4d2b-ac09-4d2c4a9af185
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f29289d6-7d2b-46a7-ac5c-f8904a550c76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9883db11-e553-43c8-a2c2-f2aafb9a64bc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:99b2c9dc-dedd-46ac-a84e-0d49a759a6dd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7b7c8b3e-b303-4137-98b6-a98e84c7b505
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:01422b01-03f5-451e-b6ee-5951c9f94a4d
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:406c39d5-5bbe-4daf-9246-674c90de75fe
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7a379e92-d5f6-4401-8cf8-1aa9f77faca1
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ba8d2fb6-e524-4619-a163-51e3b169ca9c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['BET_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:93304176-1aec-46cf-9e5d-5d40a1fa1dda
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5de58224-b3f9-4fcf-af82-5cfcbd3b253c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:39960d82-b483-4bf7-b743-20b69eed7e70
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b920eecd-3ec8-4e26-92ee-d1a1a8ceb032
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:208359b2-aaeb-4c31-83f2-574017eaac26
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3317f6b2-d328-4078-8085-2bc2737552c8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3edf5c57-7f26-4590-a11d-8b97629689c3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0bb38be9-467a-4050-b079-c28a4c4fd149
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0174841d-5ea2-418c-b1b7-30e4e60fe2df
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:20d6d4ea-32e7-47bc-a509-f99a378a301f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:76655c3f-4f24-4cb1-a071-388122061855
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ec1c099c-2c73-4e01-b4da-5b87eca733f9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cfb28299-7978-44cd-b268-faea26be8090
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c17c0948-2988-49e9-a25d-8e435d9d5408
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3d1879dc-ebb1-48cc-9f6e-0a149af6e8c8
+05-21 19:29:32 root 337:updating GUI with: 40
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['BET_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 root 337:updating GUI with: 41
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c5dc4df3-ac6c-4688-9652-e27612d9dc1c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92ba9208-8bc9-410c-b61a-944c2506ba05
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:19af7eef-c029-49de-b0a6-6b5702e0df7d
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f4318076-59f5-466e-848f-cabd64b02b4b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:54cd9abd-9414-48dd-94e3-3d8240e2999e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a8c96f62-fb8e-4b99-bf13-ef3284211e8a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:326254c6-8b8b-4ca8-81a5-53db2325cfdb
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:26280d41-8dc6-480d-bd6f-5c7d89759f10
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9ba2e839-0443-4c38-892e-300ec0ab26f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c2d9cb28-55ed-4e13-9565-56ac2d000ee1
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:60d1a30a-f0c0-4403-9919-bc2d99d66c35
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:40ee441b-4bbc-445a-b93e-8289fbf1c13a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ff41f0ce-ec7b-4358-90cb-d70c55b73c53
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:907ebf7e-572c-4e03-b907-708e2006e425
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b12fd7cf-f4ab-498f-b3e0-6f44973625fd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['BET_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9c68bb65-143e-4d9b-a18f-1e1e3aa82f14
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:53d59b1c-091b-4156-adc1-26a5fb737fe9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1c937d73-dfef-46ce-814c-649e28a8b88d
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:01f2ee83-2b62-4ee6-84f3-dbdb5cacc918
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:49b1bd2d-dfdb-4ab3-aaa2-308242fdcf7f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:265ceaa5-07ce-4b4d-8b17-f5c64f6fb3bd
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d384a678-5e89-482b-ac4e-64bf83f83660
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b8531061-b461-4f1c-ae31-c59fc7d5712e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:15fccf6f-2e72-4736-a46c-c76193fb5a74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:559ca511-419e-434b-8ead-c49011500eb1
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cd52bf6a-924b-4b7e-b3f4-6f9864efa85e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2c95d75e-dc1c-4fd9-a810-63d4246e2545
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cf2750f1-e316-472d-b6f2-758c8aad6fe6
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f5c7f684-2fb0-4a86-9fc6-88dc14d5c558
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:52010cec-1857-4c61-99aa-5c1e08d347ee
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['R_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3fb25321-d9dd-4957-ac39-3c285cd33829
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2e9ed0db-696f-4671-bdbe-fa88d1a7d810
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ebdc2a09-e4ce-40a9-81de-d2e1a4ac5ee9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c8f4b7e2-25c7-44f2-8439-d4d3b905a845
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e55d72b8-1f93-43a2-9898-5afb8d98e711
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:771ffd00-c164-420a-8a92-279e5e6299d6
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9a49582b-5093-4ac7-add6-12f9f0f25909
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:15c5f9b6-1bd9-4566-b0a8-1f08790a5461
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:301c8888-c17b-4b90-811d-97414761105c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b8ea203c-bf93-4418-a98f-34a629f7a7b7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b42e352b-55f5-4962-83ea-32df28253f58
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d60a895c-910b-46be-8dff-78568ba97614
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a9af84c6-b6da-4f19-9778-8379b60ba0b3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d146f158-80f3-4587-96b6-fa78b39ade13
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:82680073-7411-4de8-88c7-4aef10b0af11
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['R_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b31f33e1-45d2-43b4-9472-9509436077e7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7f84f5c9-2f83-4dee-93bb-71bd47bcfa53
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b58e2e21-e942-4038-8fab-28d42c806fd9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:90a9adae-efa9-4481-ac21-d1e820918e9d
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c0a85023-6568-40bc-9085-c6de42e0660b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2384cf3d-98e3-47b8-8996-b005fb0a5cc6
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f503cb63-0f87-4830-a747-3a2c1f0a7b28
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6250b98d-e6b7-4022-bc67-ffd8cec9fd0a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1ac6dbe0-2083-4e68-94ec-993a0fb00be3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a5e2d4c8-110e-418d-b3fa-8287187c5364
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:111aab47-c131-4fc7-8301-2188f270b5f5
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:54ec9640-7074-4abf-8feb-37d04dcec5a9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:22234699-e374-48df-8f0e-98591aa94d4b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e03d7b9f-dd5c-405f-8589-d565fbe82dc8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f58b67ee-1711-46d1-8c68-fc441d61e57e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['R_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a57b6337-da98-42bc-b985-b76846d5ad1c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ba3e661d-2327-4634-bfcd-10fd9a0b390e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:29e4f47c-c559-42b3-ad25-0d146048f80b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c850a9a8-01aa-435b-84f9-fed482fe9fc9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:22c22400-6556-4ba2-9e3e-c759ab5e869e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:711b61d3-068e-4fdf-964b-c563ea3e433f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5db174e1-389a-4014-938b-3d9a0461da71
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:509d9b03-5d3c-44db-a728-2e7b73f8d059
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8375e565-9dc7-4edd-9b60-39382d0b9a2e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5f031665-4fd4-4225-a813-5d71a32e7700
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ca94dd8d-5f85-44e6-a472-5c25c24ca636
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d264cf16-4f28-4832-8833-553b90fbdcec
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2485a0ae-aa6f-4eb2-bb3c-c7da0de493b6
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:202b7b39-ba7b-49a6-9b60-c155a08b0c28
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d3255429-65c3-4555-aa18-03265d6f1f89
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['TH_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6bfa31c4-9347-470c-8823-f7e426270777
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1ba8b915-8f68-4388-bfb2-bfec89cd6f4e
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c2c31bb2-7369-48d8-a074-1fe17ac3b64d
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4d7fcd2d-9fce-40d2-b3b8-e0250a8047f5
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5e1af228-b04b-43e0-9d8a-ac160bf2b07c
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9e738f47-3fac-4686-abd1-1e6f72a2b8a7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:da612f46-5f80-4490-ab56-25165b0d9aa9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a74eaa3a-cac2-432d-9a35-2bc901d8ab60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:91ea2e9a-acc3-4fa2-8f2a-f518f9dbe433
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:6d4a3ef4-c462-4356-8907-4243099fcf50
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:88e8dddd-4221-4403-b625-2d5f72ed8afc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:23e9f634-d60a-42a2-8d8b-19b5aa99ac91
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7e01a4e3-0d01-4818-a0b1-76d1c2531030
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:78d3d56c-35b1-48e8-8155-445d8c882aa7
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:07ae4b46-140f-445d-8c94-48c4a33574ad
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['TH_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e6991bd5-a31f-41b2-9d14-8bbd942d23e1
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b4514b2c-f3d8-44d1-a18a-14ba4e40bc67
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:805b23a0-654d-4ae8-81fb-2258577637d0
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:569f23a5-d669-44d2-9c8e-1e2bf400e574
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:24dc44c6-48a2-4f98-b7fb-4362998bf347
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:aa0dada1-23c4-4ce7-9834-7fe159250f66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:63675de3-d2f0-407c-aea1-3aeb031223fa
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:54b6787d-a64c-4ba1-b089-4a33e63e12d8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bf45153f-7b4f-4fd6-a749-8d69eb5dad23
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f4b14fa4-3d6c-42a7-ba5b-4eabee3a52c4
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9e907cf0-d027-46b3-a11e-5001f1bd6516
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f173a163-026e-40dd-a464-241586558088
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:aa89a3c5-2c0e-454a-9d3f-ec01983eadcb
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e5a38c19-acc5-433e-acfb-8d4335c7561b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:aee23f05-f07e-4215-977e-ee69c9185048
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['TH_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7b682dd2-4882-4841-96b5-594989f4cf32
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8c759f2f-4b93-460c-948c-efebaa79f652
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2c8ced8f-158a-4135-b280-8caee4541c11
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7f86e35b-7f50-4551-af00-f2e02579b10a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fccedde1-eb12-499d-a30c-94d92aeb38e2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fd8210c5-784b-421e-8e7a-ecb7db1012f9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7082b38a-cac4-4dc2-9076-7728b9cbc955
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7dc2cd1f-470b-41c2-b523-45d58b30a849
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:adcc3af5-f298-4565-887a-a75e70ea1306
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:46200fe7-0196-46b4-9c95-72ccbea1b745
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:989dfc47-869b-417b-abd2-b654c486c57f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a9cd14b1-2139-4c20-81e4-f63a22f2b5c6
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:191c595b-5e35-40ea-8dd0-e38dd7f62856
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4dea9187-e944-4521-bdbe-77e6a879beeb
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a99a29b7-0b11-406d-aac5-6cae010edbff
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['TH_LIM_CCW LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:457804f8-c7c2-44b6-81f2-ecddfdf4cbef
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:02bc2172-447a-4770-92b4-f414c8e7eca0
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ea9b354e-a3c1-46ce-94c9-ffda6f1626e3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0a3c8cdd-509c-4dc0-b1aa-a2b5f98ae039
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:eb0002ce-24b7-4a1a-bd2c-86a2c35b6f07
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3a38cc80-07fe-4d80-bfb8-fdaaed0db1b8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c4bceaa2-93d5-4d5f-8f05-ebbf046f7750
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d00bbe40-c9fe-4c4b-8a37-fff7870eb6fa
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:e137873b-3c62-4fc9-8f8d-5e46f42cd49a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c247af86-8dda-4085-bf31-77236ed12d17
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8c1912a3-5e10-4522-b63f-f31c25e36bab
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9d671db0-d883-4a89-8824-e7950858b0d8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:91ac57f2-3cf0-4a56-9e0d-b10190cd95f2
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f9da312d-d0f0-4679-8000-0b091f5fe9ba
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:80879512-6e55-4b55-8741-dab48d80aa52
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:58a69e10-6f90-4ec5-8ee1-92636abca844
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:4bcf2166-ccfb-4eae-8c00-92089132e4f8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f50909a1-6f1f-4671-bce6-74e76566adc3
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:10ee613d-f2b3-4dfc-8631-1873cb9f412b
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8fabb048-527a-44e8-b03b-d3e9359e828f
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a50d0a56-1eae-440c-9527-b01c29278a60
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b4b90b7c-c37c-487f-9a9f-3539fb1276c8
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:05169ff5-9b2a-4cd3-b814-7600a821ecdc
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:dc9a18c6-21b0-40ec-a472-f20792c7c2ec
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:946c215e-c9de-4a1b-86b5-6fe63075174a
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:54418c15-5531-4cf2-84db-67fffb272251
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:13bdd552-0c49-4c3c-9781-07dbeafb80ea
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cd93ba7c-e548-4780-8db6-97f462eb4329
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:517f9d46-b4af-407d-ab35-ebb186712fb9
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a4f08b54-461b-49b1-8e79-9afecb978a27
+05-21 19:29:32 root 332:updating GUI message: 'Replicating tracks'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating tracks
+05-21 19:29:32 root 337:updating GUI with: 0
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['ALF_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_ENC_A LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_ENC_A LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/ALF_ENC_A'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_ENC_A LEVEL SHIFTER/NG'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/ALF_ENC_A_IN'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['ALF_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_ENC_B LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_ENC_B LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/ALF_ENC_B_IN'), ('/TH_LIM_CLW', '/ALF_ENC_B'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['ALF_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_LIM_MAX_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.80
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_LIM_MAX LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_LIM_MAX LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/ALF_LIM_MAX_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_LIM_MAX LEVEL SHIFTER/NG'), ('GND', 'GND'), ('/TH_LIM_CLW', '/ALF_LIM_MAX')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['ALF_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_LIM_MIN_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.80
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/ALF_LIM_MIN_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_LIM_MIN LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_LIM_MIN LEVEL SHIFTER/PG'), ('GND', 'GND'), ('/TH_LIM_CLW', '/ALF_LIM_MIN')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['BET_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'BET_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_ENC_A LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/BET_ENC_A_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_ENC_A LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/BET_ENC_A'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_ENC_A LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['BET_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'BET_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_ENC_B LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/BET_ENC_B_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_ENC_B LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/BET_ENC_B'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['BET_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_LIM_MAX LEVEL SHIFTER'] :[('/TH_LIM_CLW', '/BET_LIM_MAX'), ('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_LIM_MAX LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/BET_LIM_MAX_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_LIM_MAX LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['BET_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_LIM_MIN LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/BET_LIM_MIN_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_LIM_MIN LEVEL SHIFTER/NG'), ('/TH_LIM_CLW', '/BET_LIM_MIN'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['R_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.62
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'R_HOME_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.73
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.62
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_HOME LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_HOME LEVEL SHIFTER/PG'), ('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_HOME LEVEL SHIFTER/NG'), ('/TH_LIM_CLW', '/R_HOME'), ('GND', 'GND'), ('/TH_LIM_CLW_IN', '/R_HOME_IN')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['R_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_LIM_MAX LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_LIM_MAX LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/R_LIM_MAX_IN'), ('/TH_LIM_CLW', '/R_LIM_MAX'), ('GND', 'GND'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_LIM_MAX LEVEL SHIFTER/PG')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['R_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_LIM_MIN LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/R_LIM_MIN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_LIM_MIN LEVEL SHIFTER/NG'), ('GND', 'GND'), ('/TH_LIM_CLW_IN', '/R_LIM_MIN_IN')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['TH_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'TH_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_ENC_A LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_ENC_A LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/TH_ENC_A_IN'), ('/TH_LIM_CLW', '/TH_ENC_A'), ('GND', 'GND'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_ENC_A LEVEL SHIFTER/PG')]
+05-21 19:29:32 root 337:updating GUI with: 73
+05-21 19:29:32 root 337:updating GUI with: 73
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['TH_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'TH_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_ENC_B LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/TH_ENC_B'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/TH_ENC_B_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_ENC_B LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['TH_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_HOME LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW', '/TH_HOME'), ('/TH_LIM_CLW_IN', '/TH_HOME_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_HOME LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_HOME LEVEL SHIFTER/PG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['TH_LIM_CCW LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_LIM_CCW LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_LIM_CCW LEVEL SHIFTER/PG'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/TH_LIM_CCW_IN'), ('/TH_LIM_CLW', '/TH_LIM_CCW'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_LIM_CCW LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 root 332:updating GUI message: 'Replicating zones'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1079:Replicating zones
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['ALF_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_ENC_A LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_ENC_A LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/ALF_ENC_A'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_ENC_A LEVEL SHIFTER/NG'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/ALF_ENC_A_IN'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['ALF_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.61
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_ENC_B LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_ENC_B LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/ALF_ENC_B_IN'), ('/TH_LIM_CLW', '/ALF_ENC_B'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['ALF_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_LIM_MAX_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.80
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_LIM_MAX LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_LIM_MAX LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/ALF_LIM_MAX_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_LIM_MAX LEVEL SHIFTER/NG'), ('GND', 'GND'), ('/TH_LIM_CLW', '/ALF_LIM_MAX')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['ALF_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'ALF_LIM_MIN_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.80
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'ALF_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['ALF_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/ALF_LIM_MIN_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/ALF_LIM_MIN LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/ALF_LIM_MIN LEVEL SHIFTER/PG'), ('GND', 'GND'), ('/TH_LIM_CLW', '/ALF_LIM_MIN')]
+05-21 19:29:32 root 337:updating GUI with: 20
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['BET_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'BET_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_ENC_A LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/BET_ENC_A_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_ENC_A LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/BET_ENC_A'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_ENC_A LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['BET_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'BET_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.66
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_ENC_B LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/BET_ENC_B_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_ENC_B LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/BET_ENC_B'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['BET_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_LIM_MAX LEVEL SHIFTER'] :[('/TH_LIM_CLW', '/BET_LIM_MAX'), ('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_LIM_MAX LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/BET_LIM_MAX_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_LIM_MAX LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['BET_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'BET_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['BET_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/BET_LIM_MIN LEVEL SHIFTER/PG'), ('/TH_LIM_CLW_IN', '/BET_LIM_MIN_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/BET_LIM_MIN LEVEL SHIFTER/NG'), ('/TH_LIM_CLW', '/BET_LIM_MIN'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['R_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.62
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'R_HOME_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.73
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.62
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_HOME LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_HOME LEVEL SHIFTER/PG'), ('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_HOME LEVEL SHIFTER/NG'), ('/TH_LIM_CLW', '/R_HOME'), ('GND', 'GND'), ('/TH_LIM_CLW_IN', '/R_HOME_IN')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['R_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MAX'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_LIM_MAX LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_LIM_MAX LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/R_LIM_MAX_IN'), ('/TH_LIM_CLW', '/R_LIM_MAX'), ('GND', 'GND'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_LIM_MAX LEVEL SHIFTER/PG')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['R_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'R_LIM_MIN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.76
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['R_LIM_MIN LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/R_LIM_MIN LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/R_LIM_MIN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/R_LIM_MIN LEVEL SHIFTER/NG'), ('GND', 'GND'), ('/TH_LIM_CLW_IN', '/R_LIM_MIN_IN')]
+05-21 19:29:32 root 337:updating GUI with: 69
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['TH_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'TH_ENC_A_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_A'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_ENC_A LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_ENC_A LEVEL SHIFTER/NG'), ('/TH_LIM_CLW_IN', '/TH_ENC_A_IN'), ('/TH_LIM_CLW', '/TH_ENC_A'), ('GND', 'GND'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_ENC_A LEVEL SHIFTER/PG')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['TH_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW_IN'] and dst net: ['', 'TH_ENC_B_IN'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.79
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_ENC_B'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.72
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_ENC_B LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_ENC_B LEVEL SHIFTER/PG'), ('/TH_LIM_CLW', '/TH_ENC_B'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/TH_ENC_B_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_ENC_B LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['TH_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'TH_LIM_CLW'] and dst net: ['', 'TH_HOME'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.74
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_HOME LEVEL SHIFTER'] :[('+24V', '+24V'), ('/TH_LIM_CLW', '/TH_HOME'), ('/TH_LIM_CLW_IN', '/TH_HOME_IN'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_HOME LEVEL SHIFTER/NG'), ('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_HOME LEVEL SHIFTER/PG'), ('GND', 'GND')]
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['TH_LIM_CCW LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['TH_LIM_CCW LEVEL SHIFTER'] :[('/TH_LIM_CLW LEVEL SHIFTER/PG', '/TH_LIM_CCW LEVEL SHIFTER/PG'), ('+24V', '+24V'), ('/TH_LIM_CLW_IN', '/TH_LIM_CCW_IN'), ('/TH_LIM_CLW', '/TH_LIM_CCW'), ('/TH_LIM_CLW LEVEL SHIFTER/NG', '/TH_LIM_CCW LEVEL SHIFTER/NG'), ('GND', 'GND')]
+05-21 19:29:32 root 332:updating GUI message: 'Replicating text'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1168:Replicating text
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['ALF_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['ALF_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 root 337:updating GUI with: 13
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['ALF_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['ALF_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['BET_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['BET_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['BET_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['BET_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['R_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['R_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['R_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['TH_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['TH_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['TH_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['TH_LIM_CCW LEVEL SHIFTER']
+05-21 19:29:32 root 332:updating GUI message: 'Replicating drawings'
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1219:Replicating drawings
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['ALF_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['ALF_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['ALF_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['ALF_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['BET_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['BET_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['BET_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['BET_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['R_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['R_LIM_MAX LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['R_LIM_MIN LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['TH_ENC_A LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['TH_ENC_B LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['TH_HOME LEVEL SHIFTER']
+05-21 19:29:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['TH_LIM_CCW LEVEL SHIFTER']
+05-21 19:29:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+05-21 19:29:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+05-21 19:29:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint R12, pad 1
+Footprint Q20, pad 2
+Footprint R18, pad 1
+Footprint R15, pad 1
+Footprint Q2, pad 2
+Footprint R31, pad 1
+Footprint R33, pad 1
+Footprint R6, pad 1
+Footprint R24, pad 1
+Footprint Q18, pad 2
+Footprint Q26, pad 2
+Footprint R48, pad 1
+Footprint Q10, pad 2
+Footprint R4, pad 1
+Footprint Q6, pad 2
+Footprint R28, pad 1
+Footprint R13, pad 1
+Footprint R9, pad 1
+Footprint Q4, pad 2
+Footprint R45, pad 1
+Footprint Q32, pad 2
+Footprint Q12, pad 2
+Footprint R49, pad 1
+Footprint Q30, pad 2
+Footprint R7, pad 1
+Footprint Q8, pad 2
+Footprint R30, pad 1
+Footprint Q16, pad 2
+Footprint R19, pad 1
+Footprint R42, pad 1
+Footprint Q14, pad 2
+Footprint R16, pad 1
+Footprint R21, pad 1
+Footprint R27, pad 1
+Footprint R51, pad 1
+Footprint R10, pad 1
+Footprint Q28, pad 2
+

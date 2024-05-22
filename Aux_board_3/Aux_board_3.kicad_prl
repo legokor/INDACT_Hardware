@@ -74,33 +74,21 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Aux_board_2.kicad_prl",
+    "filename": "Aux_board_3.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Aux_board_2.kicad_pro",
+        "name": "Aux_board_3.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 536,
-          "pos_y": 511,
-          "size_x": 1260,
-          "size_y": 570
-        }
-      },
-      {
-        "name": "Aux_board_2.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
           "maximized": true,
-          "pos_x": 522,
-          "pos_y": 322,
+          "pos_x": 525,
+          "pos_y": 421,
           "size_x": 1280,
-          "size_y": 879
+          "size_y": 582
         }
       }
     ]

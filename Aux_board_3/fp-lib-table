@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LEGOkor")(type "KiCad")(uri "${KIPRJMOD}/../LEGOkor.pretty")(options "")(descr ""))
+  (lib (name "power_modules")(type "KiCad")(uri "${KIPRJMOD}/../power_modules.pretty")(options "")(descr ""))
+  (lib (name "SFH6345")(type "KiCad")(uri "${KIPRJMOD}/../SFH6345.pretty")(options "")(descr ""))
+  (lib (name "SN75LBC179AD")(type "KiCad")(uri "${KIPRJMOD}/../SN75LBC179AD.pretty")(options "")(descr ""))
+)
