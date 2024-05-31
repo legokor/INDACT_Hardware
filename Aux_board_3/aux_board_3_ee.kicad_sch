@@ -5740,10 +5740,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "791021eb-3afa-4120-a7f8-4527123eb759")
+			(uuid "791021eb-3afa-4120-a7f8-4527123eb75a")
 		)
 		(pin "1"
-			(uuid "3a7d5487-624c-4dde-b9c3-8672fe324667")
+			(uuid "3a7d5487-624c-4dde-b9c3-8672fe324668")
 		)
 		(instances
 			(project "Aux_board_3"
@@ -6264,10 +6264,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "80e9459f-6f5a-4154-88ff-c4e896fabab0")
+			(uuid "80e9459f-6f5a-4154-88ff-c4e896fabab1")
 		)
 		(pin "2"
-			(uuid "36e0da2b-d4fb-4dfa-9cf5-817a0885ea94")
+			(uuid "36e0da2b-d4fb-4dfa-9cf5-817a0885ea95")
 		)
 		(instances
 			(project "Aux_board_3"

@@ -80,15 +80,15 @@
   "project": {
     "files": [
       {
-        "name": "Aux_board_1.kicad_pro",
+        "name": "Aux_board_1.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 536,
-          "pos_y": 511,
-          "size_x": 1260,
-          "size_y": 570
+          "maximized": true,
+          "pos_x": 375,
+          "pos_y": 212,
+          "size_x": 1236,
+          "size_y": 694
         }
       }
     ]
